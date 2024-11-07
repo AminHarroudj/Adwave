@@ -4,9 +4,9 @@ function Project({ year, title, description }) {
   return (
     <>
       <div className="flex flex-col items-center">
-        <h1 className="text-8xl font-medium">{year}</h1>
+        <h1 className="text-5xl md:text-8xl font-medium">{year}</h1>
         <div
-          className="flex flex-col justify-end gap-4 border-4 border-[#BF36FF] p-6 rounded-3xl w-[656.48px] h-[385px]"
+          className="flex flex-col justify-end gap-4 border-4 border-[#BF36FF] p-6 rounded-3xl md:w-[656.48px] md:h-[385px]"
           style={{
             backgroundImage: `url('${bg}')`,
             backgroundPosition: "0 0",
@@ -16,8 +16,8 @@ function Project({ year, title, description }) {
             backgroundBlendMode: "multiply",
           }}
         >
-          <h1 className="text-5xl font-medium">{title}</h1>
-          <p className="text-[24px] opacity-70">{description}</p>
+          <h1 className="text-3xl md:text-5xl font-medium">{title}</h1>
+          <p className="text-lg md:text-[24px] opacity-70">{description}</p>
         </div>
       </div>
     </>

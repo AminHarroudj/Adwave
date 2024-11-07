@@ -8,8 +8,8 @@ import { FaFacebook } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <div className="flex flex-col gap-28 bg-black py-28 px-16 border-t-4 border-[#BF36FF] mt-60">
-        <div className="grid grid-cols-4">
+      <div className="flex flex-col max-md:items-center max-md:text-center gap-10 md:gap-28 bg-black py-10 md:py-28 px-16 border-t-4 border-[#BF36FF] mt-20 md:mt-44">
+        <div className="grid grid-cols-1 md:grid-cols-4 max-md:gap-6">
           <div className="flex flex-col gap-6">
             <h1 className="text-2xl">About Us</h1>
             <ul className="flex flex-col gap-2">
@@ -51,8 +51,8 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-56 items-center">
-          <div className="flex flex-col gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-56 items-center">
+          <div className="flex flex-col items-center gap-10">
             <img src={logo} alt="" className="w-[84.18px] h-[77.74px]" />
             <p className="text-lg">
               Bring Your Ideas To Life With Custom Websites That Combine
