@@ -22,7 +22,6 @@ import img8 from "../assets/8.png";
 import img9 from "../assets/9.png";
 import img10 from "../assets/10.png";
 import menImg from "../assets/men.png";
-import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -352,7 +351,6 @@ function Home() {
           </form>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

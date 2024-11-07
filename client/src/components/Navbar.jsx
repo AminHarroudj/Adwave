@@ -1,6 +1,8 @@
 import logo from "../assets/logo.png";
 import { TiThMenu } from "react-icons/ti";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
+
 
 function Navbar() {
   const [open, setOpen] = useState("");
@@ -14,25 +16,25 @@ function Navbar() {
           } md:flex flex-col md:flex-row max-md:absolute top-16 right-0 left-0 items-center justify-center text-center gap-2 md:gap-8 bg-purple-400 md:bg-transparent rounded-full max-md:py-4 z-50`}
         >
           <li className="text-[#FFFFFF] md:opacity-60 hover:opacity-100">
-            <a href="#">Home</a>
+            <Link to={"/"}>Home</Link>
           </li>
           <li className="text-[#FFFFFF] md:opacity-60 hover:opacity-100">
-            <a href="#">Services</a>
+            <Link to={"/services"}>Services</Link>
           </li>
           <li className="text-[#FFFFFF] md:opacity-60 hover:opacity-100">
-            <a href="#">Pricing</a>
+            <Link to={"/"}>Pricing</Link>
           </li>
           <li className="text-[#FFFFFF] md:opacity-60 hover:opacity-100">
-            <a href="#">Why Choose Us</a>
+            <Link to={"/"}>Why Choose Us</Link>
           </li>
           <li className="text-[#FFFFFF] md:opacity-60 hover:opacity-100">
-            <a href="#">Blogs</a>
+            <Link to={"/"}>Blogs</Link>
           </li>
           <li className="text-[#FFFFFF] md:opacity-60 hover:opacity-100">
-            <a href="#">Contact</a>
+            <Link to={"/contact"}>Contact</Link>
           </li>
           <li className="text-[#FFFFFF] md:opacity-60 hover:opacity-100">
-            <a href="#">About Us</a>
+            <Link to={"/about"}>About Us</Link>
           </li>
         </ul>
         <div className="md:hidden">
