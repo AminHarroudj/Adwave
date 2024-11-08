@@ -4,7 +4,7 @@ import herfatechImg from "../assets/herfatech.png";
 function OurWork() {
   return (
     <>
-      <div className="flex items-center justify-center mt-20 md:mt-44">
+      <div className="flex items-center justify-center mt-20 md:mt-64">
         <div className="text-6xl md:text-9xl font-semibold max-md:text-center">
           Our{" "}
           <span className="px-4 bg-[#f73cfb]">

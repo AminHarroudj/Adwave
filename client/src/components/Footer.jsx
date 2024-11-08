@@ -8,7 +8,7 @@ import { FaFacebook } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <div className="flex flex-col max-md:items-center max-md:text-center gap-10 md:gap-28 bg-black py-10 md:py-28 px-16 border-t-4 border-[#BF36FF] mt-20 md:mt-44">
+      <div className="flex flex-col max-md:items-center max-md:text-center gap-10 md:gap-28 bg-black py-10 md:py-28 px-16 border-t-4 border-[#BF36FF] mt-44">
         <div className="grid grid-cols-1 md:grid-cols-4 max-md:gap-6">
           <div className="flex flex-col gap-6">
             <h1 className="text-2xl">About Us</h1>
