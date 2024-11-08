@@ -13,41 +13,41 @@ function Footer() {
           <div className="flex flex-col gap-6">
             <h1 className="text-2xl">About Us</h1>
             <ul className="flex flex-col gap-2">
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
             </ul>
           </div>
           <div className="flex flex-col gap-6">
             <h1 className="text-2xl">About Us</h1>
             <ul className="flex flex-col gap-2">
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
             </ul>
           </div>
           <div className="flex flex-col gap-6">
             <h1 className="text-2xl">About Us</h1>
             <ul className="flex flex-col gap-2">
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
             </ul>
           </div>
           <div className="flex flex-col gap-6">
             <h1 className="text-2xl">About Us</h1>
             <ul className="flex flex-col gap-2">
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
-              <li className="text-white text-opacity-50 text-lg">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
             </ul>
           </div>
         </div>
@@ -77,11 +77,11 @@ function Footer() {
         </div>
         <div className="flex flex-col gap-4 items-center text-center">
           <div className="flex gap-6 text-4xl">
-            <PiInstagramLogoFill className="text-white text-opacity-50 cursor-pointer"/>
-            <FaXTwitter className="text-white text-opacity-50 cursor-pointer"/>
-            <FaYoutube className="text-white text-opacity-50 cursor-pointer"/>
-            <BsLinkedin className="text-white text-opacity-50 cursor-pointer"/>
-            <FaFacebook className="text-white text-opacity-50 cursor-pointer"/>
+            <PiInstagramLogoFill className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300"/>
+            <FaXTwitter className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300"/>
+            <FaYoutube className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300"/>
+            <BsLinkedin className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300"/>
+            <FaFacebook className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300"/>
           </div>
           <div>
             <p className="text-white text-opacity-50">

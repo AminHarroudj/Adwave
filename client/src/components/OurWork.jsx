@@ -15,34 +15,34 @@ function OurWork() {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-2 mt-16">
-        <Work title={"Herfatech."}>
+        <Work title={"Herfatech."} description={"App Mobile"}>
           <img src={herfatechImg} alt="" />
         </Work>
-        <Work title={"Herfatech."}>
+        <Work title={"Herfatech."} description={"App Mobile"}>
           <img src={herfatechImg} alt="" />
         </Work>
-        <Work title={"Herfatech."}>
+        <Work title={"Herfatech."} description={"App Mobile"}>
           <img src={herfatechImg} alt="" />
         </Work>
-        <Work title={"Herfatech."}>
+        <Work title={"Herfatech."} description={"App Mobile"}>
           <img src={herfatechImg} alt="" />
         </Work>
-        <Work title={"Herfatech."}>
+        <Work title={"Herfatech."} description={"App Mobile"}>
           <img src={herfatechImg} alt="" />
         </Work>
-        <Work title={"Herfatech."}>
+        <Work title={"Herfatech."} description={"App Mobile"}>
           <img src={herfatechImg} alt="" />
         </Work>
-        <Work title={"Herfatech."}>
+        <Work title={"Herfatech."} description={"App Mobile"}>
           <img src={herfatechImg} alt="" />
         </Work>
-        <Work title={"Herfatech."}>
+        <Work title={"Herfatech."} description={"App Mobile"}>
           <img src={herfatechImg} alt="" />
         </Work>
-        <Work title={"Herfatech."}>
+        <Work title={"Herfatech."} description={"App Mobile"}>
           <img src={herfatechImg} alt="" />
         </Work>
-        <Work title={"Herfatech."}>
+        <Work title={"Herfatech."} description={"App Mobile"}>
           <img src={herfatechImg} alt="" />
         </Work>
       </div>

@@ -1,7 +1,23 @@
+import { motion } from "framer-motion";
+import bg from "../assets/pc.jpeg";
+
 function BestQuality({ num, title, description }) {
   return (
     <>
-      <div className="flex flex-col gap-4 md:gap-10 bg-[#66019670] p-6 rounded-3xl">
+      <motion.div
+        className="flex flex-col mt-10 gap-4 md:gap-10 bg-[#66019670] p-6 rounded-3xl"
+        whileHover={{
+          y: -30,
+          backgroundImage: `url('${bg}')`,
+          backgroundPosition: "0 0",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundBlendMode: "multiply",
+        }}
+        transition={{
+          duration: 0.5,
+        }}
+      >
         <div className="flex items-center gap-4 text-2xl">
           <div className="flex flex-col items-start">
             <h1 className="text-4xl md:text-6xl font-medium">{num}</h1>
@@ -18,7 +34,7 @@ function BestQuality({ num, title, description }) {
         <div className="md:text-xl opacity-50">
           <p>{description}</p>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

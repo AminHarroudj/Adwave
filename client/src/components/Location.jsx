@@ -7,16 +7,22 @@ import { FaFacebook } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 function Location() {
   return (
     <>
-      <div className="flex items-center justify-center text-center mx-2 md:mx-20 gap-10 md:gap-36 mt-24 md:mt-44 max-md:flex-col-reverse">
-        <div>
+      <div className="flex items-center justify-center max-md:text-center mx-2 md:mx-20 gap-10 md:gap-36 mt-24 md:mt-44 max-md:flex-col-reverse">
+        <motion.div
+        whileHover={{
+          y:-30,
+          scale:1.1
+        }}
+        className="md:ml-10">
           <img src={locationImg} alt="" className="w-[300px] md:w-[600px]" />
-        </div>
-        <div className="flex flex-col gap-10 text-center justify-center items-center">
-          <div className="flex items-center flex-col gap-4">
+        </motion.div>
+        <div className="flex flex-col gap-10 max-md:text-center max-md:justify-center max-md:items-center">
+          <div className="flex max-md:items-center flex-col gap-4">
             <div className="flex items-center gap-6 md:w-[84.18px] md:h-[77.74px]">
               <img src={logo} alt="" />
               <h1 className="text-5xl font-medium">Adwave.</h1>
@@ -47,19 +53,19 @@ function Location() {
             <div className="flex flex-col gap-4 justify-center items-start">
               <h1 className="text-2xl">Follow us</h1>
               <div className="flex gap-4">
-                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full">
+                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
                   <AiFillInstagram className="text-xl" />
                 </div>
-                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full">
+                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
                   <FaFacebook className="text-xl" />
                 </div>
-                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full">
+                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
                   <BsTwitterX className="text-xl" />
                 </div>
-                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full">
+                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
                   <FaLinkedin className="text-xl" />
                 </div>
-                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full">
+                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
                   <FaTiktok className="text-xl" />
                 </div>
               </div>

@@ -53,7 +53,7 @@ function Form() {
               placeholder="Message"
               className="bg-white bg-opacity-10 text-opacity-50 p-4 rounded-xl w-full outline-none pb-[214px]"
             />
-            <button className="py-2 px-16 bg-[#AB1DEE] bg-opacity-30 rounded-full border-2 border-[#BF36FF] text-xl font-medium">
+            <button className="py-2 px-16 bg-[#AB1DEE] bg-opacity-30 rounded-full border-2 border-[#BF36FF] text-xl font-medium hover:bg-[#B925FF] duration-300">
               Send
             </button>
           </form>

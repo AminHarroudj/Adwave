@@ -86,7 +86,7 @@ function WhoWeAre() {
         </Swiper>
       </div>
       <div className="flex justify-center items-center mt-10 md:mt-24">
-        <button className="text-lg md:text-3xl font-medium  border-2 border-[#BF36FF] py-4 px-10 md:px-28 rounded-3xl bg-[#B925FF] bg-opacity-20">
+        <button className="text-lg md:text-3xl font-medium  border-2 border-[#BF36FF] py-4 px-10 md:px-28 rounded-3xl bg-[#B925FF] bg-opacity-20 hover:bg-[#B925FF] duration-300">
           Contact Us
         </button>
       </div>

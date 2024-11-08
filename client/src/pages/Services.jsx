@@ -7,7 +7,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 function Services() {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-between mt-24 md:ml-10 ml-2">
+      <div className="flex flex-col md:flex-row justify-between pt-32 md:ml-10 ml-2">
         <div className="flex flex-col justify-center gap-2">
           <p className="text-3xl md:text-5xl">Discover Our</p>
           <h1 className="text-7xl md:text-9xl font-semibold">Services.</h1>
@@ -54,7 +54,7 @@ function Services() {
               User-Friendly And Optimized Online Presence.
             </p>
           </div>
-          <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10">
+          <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
             Demand Free Consultation
           </button>
         </div>
@@ -91,7 +91,7 @@ function Services() {
               User-Friendly And Optimized Online Presence.
             </p>
           </div>
-          <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10">
+          <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
             Demand Free Consultation
           </button>
         </div>
@@ -136,7 +136,7 @@ function Services() {
               User-Friendly And Optimized Online Presence.
             </p>
           </div>
-          <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10">
+          <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
             Demand Free Consultation
           </button>
         </div>

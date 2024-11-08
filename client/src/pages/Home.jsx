@@ -9,14 +9,14 @@ import WhoWeAre from "../components/WhoWeAre";
 function Home() {
   return (
     <>
-      <div className="flex flex-col items-center mt-32 gap-36">
+      <div className="flex flex-col items-center pt-32 gap-36">
         <div className="flex flex-col justify-center items-center text-center gap-2">
           <p className="text-3xl md:text-5xl">We Are</p>
           <h1 className="text-7xl md:text-9xl font-semibold">Adwave.</h1>
           <p className="text-lg md:text-2xl opacity-50">
             Empowring Brands ... Enriching Experiences
           </p>
-          <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10">
+          <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
             Demand Free Consultation
           </button>
         </div>

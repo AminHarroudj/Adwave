@@ -30,20 +30,20 @@ function Member({ children, name, job, description }) {
               </p>
               <div className="flex flex-col gap-2">
                 <h1 className="text-2xl font-medium">Social Media</h1>
-                <div className="flex gap-4">
-                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full">
+                <div className="flex gap-4 z-50">
+                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
                     <AiFillInstagram className="text-xl" />
                   </div>
-                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full">
+                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
                     <FaFacebook className="text-xl" />
                   </div>
-                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full">
+                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
                     <BsTwitterX className="text-xl" />
                   </div>
-                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full">
+                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
                     <FaLinkedin className="text-xl" />
                   </div>
-                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full">
+                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
                     <FaTiktok className="text-xl" />
                   </div>
                 </div>
