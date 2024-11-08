@@ -5,6 +5,7 @@ import Form from "../components/Form";
 import WhyChooseUs from "../components/WhyChooseUs";
 import bg from "../assets/background2.png";
 import Footer from "../components/Footer";
+import { motion } from "framer-motion";
 
 function Services() {
   return (
@@ -18,16 +19,41 @@ function Services() {
         }}
       >
         <div className="flex flex-col md:flex-row justify-between pt-32 md:ml-10 ml-2">
-          <div className="flex flex-col justify-center gap-2">
+          <motion.div
+            className="flex flex-col justify-center gap-2"
+            initial={{
+              x: +200,
+              y: -100,
+            }}
+            whileInView={{
+              x: 0,
+              y: 0,
+            }}
+            transition={{
+              duration:0.5
+            }}
+          >
             <p className="text-3xl md:text-5xl">Discover Our</p>
             <h1 className="text-7xl md:text-9xl font-semibold">Services.</h1>
             <p className="text-lg md:text-2xl opacity-50">
               Empowring Brands ... Enriching Experiences
             </p>
-          </div>
-          <div>
+          </motion.div>
+          <motion.div
+            initial={{
+              x: -200,
+              y: +100,
+            }}
+            whileInView={{
+              x: 0,
+              y: 0,
+            }}
+            transition={{
+              duration:0.5
+            }}
+          >
             <img src={men2Img} alt="" />
-          </div>
+          </motion.div>
         </div>
 
         <div className="flex md:flex-row items-center mt-20">

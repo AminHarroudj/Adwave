@@ -11,6 +11,7 @@ import Form from "../components/Form";
 import Location from "../components/Location";
 import bg from "../assets/background4.png";
 import Footer from "../components/Footer";
+import { motion } from "framer-motion";
 
 function About() {
   return (
@@ -24,12 +25,23 @@ function About() {
         }}
       >
         <div className="flex flex-col items-center pt-32 md:pt-72 md:pb-40">
-          <div className="flex flex-col justify-center items-center text-center gap-4">
+          <motion.div
+            className="flex flex-col justify-center items-center text-center gap-4"
+            initial={{
+              y: -50,
+            }}
+            whileInView={{
+              y: 0,
+            }}
+            transition={{
+              duration: 0.5,
+            }}
+          >
             <h1 className="text-7xl md:text-9xl font-semibold">About Adwave</h1>
             <p className="text-lg md:text-2xl opacity-50">
               Empowring Brands ... Enriching Experiences
             </p>
-          </div>
+          </motion.div>
         </div>
         <WhoWeAre />
         <div className="flex flex-col gap-10 items-center mt-24 md:mt-44">
