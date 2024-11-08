@@ -23,7 +23,7 @@ function About() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="flex flex-col items-center pt-32 md:pt-72">
+        <div className="flex flex-col items-center pt-32 md:pt-72 md:pb-40">
           <div className="flex flex-col justify-center items-center text-center gap-4">
             <h1 className="text-7xl md:text-9xl font-semibold">About Adwave</h1>
             <p className="text-lg md:text-2xl opacity-50">

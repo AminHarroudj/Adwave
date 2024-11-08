@@ -7,6 +7,7 @@ import OurServices from "../components/OurServices";
 import WhoWeAre from "../components/WhoWeAre";
 import bg from "../assets/background1.png";
 import Footer from "../components/Footer";
+import { Typewriter } from "react-simple-typewriter";
 
 function Home() {
   return (
@@ -22,7 +23,17 @@ function Home() {
         <div className="flex flex-col items-center pt-32 md:pt-72 gap-36">
           <div className="flex flex-col justify-center items-center text-center gap-2">
             <p className="text-3xl md:text-5xl">We Are</p>
-            <h1 className="text-7xl md:text-9xl font-semibold">Adwave.</h1>
+            <h1 className="text-7xl md:text-9xl font-semibold">
+              <Typewriter
+                words={["Adwave."]}
+                loop={10000000}
+                cursor
+                cursorStyle="|"
+                typeSpeed={100}
+                deleteSpeed={100}
+                delaySpeed={1000}
+              />
+            </h1>
             <p className="text-lg md:text-2xl opacity-50">
               Empowring Brands ... Enriching Experiences
             </p>

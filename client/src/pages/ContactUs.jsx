@@ -1,6 +1,7 @@
 import Form from "../components/Form";
 import Location from "../components/Location";
 import bg from "../assets/background3.png";
+import Footer from "../components/Footer";
 
 function ContactUs() {
   return (
@@ -23,6 +24,7 @@ function ContactUs() {
         </div>
         <Form />
         <Location />
+        <Footer />
       </div>
     </>
   );

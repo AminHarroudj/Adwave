@@ -13,7 +13,7 @@ import img10 from "../assets/10.png";
 function OurClients() {
   return (
     <>
-      <div className="flex items-center justify-center mt-44">
+      <div className="flex items-center justify-center mt-20 md:mt-44">
         <div className="text-6xl md:text-9xl font-semibold max-md:text-center">
           Our{" "}
           <span className="px-4 bg-[#f73cfb]">
