@@ -141,7 +141,7 @@ function Services() {
             <img src={devImg} alt="" />
           </div>
           <div className="flex justify-center items-center md:items-start flex-col gap-10 md:mr-20">
-            <h1 className="text-5xl md:text-7xl font-medium">
+            <h1 className="text-5xl md:text-7xl font-medium max-md:text-center">
               Designe & Branding
             </h1>
             <div className="flex max-md:flex-col max-md:gap-4 items-center justify-between bg-white bg-opacity-10 py-4 px-4 md:px-10 rounded-3xl max-md:mx-2">
