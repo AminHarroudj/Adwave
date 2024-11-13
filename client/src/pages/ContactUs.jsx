@@ -16,7 +16,7 @@ function ContactUs() {
         }}
         className="bg-top md:bg-cover md:bg-left-top"
       >
-        <motion.div className="flex flex-col items-center pt-56 md:pt-48">
+        <motion.div className="flex flex-col items-center pt-60 md:pt-48">
           <motion.div
             className="flex flex-col justify-center text-center items-center gap-4"
             initial={{
