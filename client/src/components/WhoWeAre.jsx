@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 function WhoWeAre() {
   return (
     <>
-      <div className="flex flex-col gap-10 items-center mt-24 md:mt-44">
+      <div className="flex flex-col gap-10 items-center mt-24 md:mt-72">
         <div className="flex justify-center md:justify-end text-lg md:text-xl">
           <div className="bg-[#66019670] flex items-center py-2 px-6 gap-4 rounded-full md:ml-72 border-2 border-[#BF36FF] max-md:">
             <p className="text-[#BF36FF]">Follow</p>

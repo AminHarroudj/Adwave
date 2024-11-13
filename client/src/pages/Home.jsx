@@ -16,12 +16,13 @@ function Home() {
       <div
         style={{
           backgroundImage: `url('${bg}')`,
-          backgroundPosition: "0 0",
-          backgroundSize: "cover",
+          // backgroundPosition: "0 0",
+          // backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
+        className="bg-top md:bg-cover md:bg-left-top"
       >
-        <div className="flex flex-col items-center pt-32 md:pt-72 gap-36">
+        <div className="flex flex-col items-center pt-48 gap-36">
           <div className="flex flex-col justify-center items-center text-center gap-2">
             <p className="text-3xl md:text-5xl">We Are</p>
             <h1 className="text-7xl md:text-9xl font-semibold">

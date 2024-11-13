@@ -19,12 +19,13 @@ function About() {
       <div
         style={{
           backgroundImage: `url('${bg}')`,
-          backgroundPosition: "0 0",
-          backgroundSize: "cover",
+          // backgroundPosition: "0 0",
+          // backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
+        className="bg-top md:bg-cover md:bg-left-top"
       >
-        <div className="flex flex-col items-center pt-32 md:pt-72 md:pb-40">
+        <div className="flex flex-col items-center pt-48 md:pb-40">
           <motion.div
             className="flex flex-col justify-center items-center text-center gap-4"
             initial={{

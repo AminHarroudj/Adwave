@@ -13,10 +13,11 @@ function Services() {
       <div
         style={{
           backgroundImage: `url('${bg}')`,
-          backgroundPosition: "0 0",
-          backgroundSize: "cover",
+          // backgroundPosition: "0 0",
+          // backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
+        className="bg-top md:bg-cover md:bg-left-top"
       >
         <div className="flex flex-col md:flex-row justify-between pt-32 md:ml-10 ml-2">
           <motion.div
