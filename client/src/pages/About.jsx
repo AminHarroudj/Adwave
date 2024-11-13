@@ -25,7 +25,7 @@ function About() {
         }}
         className="bg-top md:bg-cover md:bg-left-top"
       >
-        <div className="flex flex-col items-center pt-48 md:pb-40">
+        <div className="flex flex-col items-center pt-56 md:pt-48 md:pb-40">
           <motion.div
             className="flex flex-col justify-center items-center text-center gap-4"
             initial={{

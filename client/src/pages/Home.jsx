@@ -22,7 +22,7 @@ function Home() {
         }}
         className="bg-top md:bg-cover md:bg-left-top"
       >
-        <div className="flex flex-col items-center pt-48 gap-36">
+        <div className="flex flex-col items-center pt-56 md:pt-48 gap-36">
           <div className="flex flex-col justify-center items-center text-center gap-2">
             <p className="text-3xl md:text-5xl">We Are</p>
             <h1 className="text-7xl md:text-9xl font-semibold">
