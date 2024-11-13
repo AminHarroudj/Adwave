@@ -1,11 +1,11 @@
 import Project from "../components/Project";
-
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import { Link } from "react-router-dom";
 
 function WhoWeAre() {
   return (
@@ -86,9 +86,11 @@ function WhoWeAre() {
         </Swiper>
       </div>
       <div className="flex justify-center items-center mt-10 md:mt-24">
-        <button className="text-lg md:text-3xl font-medium  border-2 border-[#BF36FF] py-4 px-10 md:px-28 rounded-3xl bg-[#B925FF] bg-opacity-20 hover:bg-[#B925FF] duration-300">
-          Contact Us
-        </button>
+        <Link to={"/contact"}>
+          <button className="text-lg md:text-3xl font-medium  border-2 border-[#BF36FF] py-4 px-10 md:px-28 rounded-3xl bg-[#B925FF] bg-opacity-20 hover:bg-[#B925FF] duration-300">
+            Contact Us
+          </button>
+        </Link>
       </div>
     </>
   );

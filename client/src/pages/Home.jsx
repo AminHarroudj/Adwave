@@ -8,6 +8,7 @@ import WhoWeAre from "../components/WhoWeAre";
 import bg from "../assets/background1.png";
 import Footer from "../components/Footer";
 import { Typewriter } from "react-simple-typewriter";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -37,11 +38,13 @@ function Home() {
             <p className="text-lg md:text-2xl opacity-50">
               Empowring Brands ... Enriching Experiences
             </p>
-            <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#180023]  mt-10 hover:bg-[#B925FF] duration-300 z-50">
-              Demand Free Consultation
-            </button>
+            <Link to={"/contact"}>
+              <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#180023]  mt-10 hover:bg-[#B925FF] duration-300 z-50">
+                Demand Free Consultation
+              </button>
+            </Link>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-36">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-36 max-md:px-2">
             <SatisfiedClient />
             <SatisfiedClient />
             <SatisfiedClient />
