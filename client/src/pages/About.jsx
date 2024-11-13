@@ -19,8 +19,6 @@ function About() {
       <div
         style={{
           backgroundImage: `url('${bg}')`,
-          // backgroundPosition: "0 0",
-          // backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
         className="bg-top md:bg-cover md:bg-left-top"

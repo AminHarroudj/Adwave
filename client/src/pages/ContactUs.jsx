@@ -10,13 +10,11 @@ function ContactUs() {
       <div
         style={{
           backgroundImage: `url('${bg}')`,
-          // backgroundPosition: "0 0",
-          // backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
         className="bg-top md:bg-cover md:bg-left-top"
       >
-        <motion.div className="flex flex-col items-center pt-60 md:pt-48">
+        <motion.div className="flex flex-col items-center pt-72 md:pt-48">
           <motion.div
             className="flex flex-col justify-center text-center items-center gap-4"
             initial={{
