@@ -24,17 +24,17 @@ function OurServices() {
         <div>
           <Service
             num={"01"}
-            title={"Web Dev"}
+            title={"Digital Marketing"}
             description={`Bring Your Ideas To Life With Custom Websites That Combine Stunning Design With Seamless Functionality, Ensuring A User-Friendly And Optimized Online Presence`}
           />
           <Service
-            num={"01"}
-            title={"Web Dev"}
+            num={"02"}
+            title={"Web Development"}
             description={`Bring Your Ideas To Life With Custom Websites That Combine Stunning Design With Seamless Functionality, Ensuring A User-Friendly And Optimized Online Presence`}
           />
           <Service
-            num={"01"}
-            title={"Web Dev"}
+            num={"03"}
+            title={"Graphic Designe"}
             description={`Bring Your Ideas To Life With Custom Websites That Combine Stunning Design With Seamless Functionality, Ensuring A User-Friendly And Optimized Online Presence`}
           />
         </div>

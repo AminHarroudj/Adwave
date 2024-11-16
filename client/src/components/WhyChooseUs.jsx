@@ -19,10 +19,10 @@ function WhyChooseUs() {
             </div>
           </div>
           <div className="text-6xl md:text-9xl font-semibold max-md:text-center">
-            Why{" "}
+            What{" "}
             <span className="px-4 bg-[#f73cfb]">
               <span className="text-6xl md:text-9xl font-semibold bg-[#AB1DEE]">
-                Choose Us
+                We Do
               </span>
             </span>
           </div>
@@ -51,7 +51,7 @@ function WhyChooseUs() {
           <SwiperSlide>
             <BestQuality
               num={"01"}
-              title={"Best Quality"}
+              title={"Renforcer votre presence sur le marchè"}
               description={
                 "Content Content Content Content Content Content Content Content Content Content Content Content Content "
               }
@@ -59,8 +59,8 @@ function WhyChooseUs() {
           </SwiperSlide>
           <SwiperSlide>
             <BestQuality
-              num={"01"}
-              title={"Best Quality"}
+              num={"02"}
+              title={"Augmenter votre chiffre d'affaire"}
               description={
                 "Content Content Content Content Content Content Content Content Content Content Content Content Content "
               }
@@ -68,8 +68,8 @@ function WhyChooseUs() {
           </SwiperSlide>
           <SwiperSlide>
             <BestQuality
-              num={"01"}
-              title={"Best Quality"}
+              num={"03"}
+              title={"Innover continuellement dans le domaine digital."}
               description={
                 "Content Content Content Content Content Content Content Content Content Content Content Content Content "
               }
@@ -77,8 +77,8 @@ function WhyChooseUs() {
           </SwiperSlide>
           <SwiperSlide>
             <BestQuality
-              num={"01"}
-              title={"Best Quality"}
+              num={"04"}
+              title={"Positionner comme leader dans le marchè"}
               description={
                 "Content Content Content Content Content Content Content Content Content Content Content Content Content "
               }

@@ -7,22 +7,22 @@ import { FaTiktok } from "react-icons/fa";
 function Member({ children, name, job, description }) {
   return (
     <>
-      <div className="w-[750px] flex flex-col gap-4 items-end ml-10 pt-10">
-        <div className="flex flex-col gap-4">
-          <h1 className="text-5xl font-medium">{name}</h1>
+      <div className="w-[500px] md:w-[750px] flex flex-col gap-4 md:items-end ml-2 md:ml-10 pt-10">
+        <div className="flex flex-col gap-2 md:gap-4">
+          <h1 className="text-4xl md:text-5xl font-medium">{name}</h1>
           <div className="flex items-center gap-4">
             <p className="text-xl text-white text-opacity-50">{job}</p>
             <div className="flex items-center">
-              <hr className="w-[285px] border-2 border-[#AB1DEE]" />
+              <hr className="md:w-[285px] border-2 border-[#AB1DEE]" />
               <div className="bg-[#AB1DEE] p-2 rounded-full"></div>
             </div>
           </div>
         </div>
         <div className="flex items-center">
-          <div className="absolute w-[469px] h-[626px]">{children}</div>
-          <div className="flex gap-72 bg-[#66019670] bg-opacity-30 py-6 px-4 rounded-3xl border-2 border-[#AB1DEE]">
+          <div className="absolute w-[469px] h-[626px] max-md:w-[200px] max-md:h-[300px]">{children}</div>
+          <div className="flex gap-40 md:gap-72 bg-[#66019670] bg-opacity-30 py-6 px-4 rounded-3xl border-2 border-[#AB1DEE]">
             <div></div>
-            <div className="flex flex-col gap-16">
+            <div className="flex flex-col gap-2 md:gap-16">
               <p className="leading-loose">
                 Bring Your Ideas To Life With Custom Websites That Combine
                 Stunning Design With Seamless Fuctionality, Ensuring A

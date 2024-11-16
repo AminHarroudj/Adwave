@@ -29,7 +29,7 @@ function Services() {
               y: 0,
             }}
             transition={{
-              duration:0.5
+              duration: 0.5,
             }}
           >
             <p className="text-3xl md:text-5xl">Discover Our</p>
@@ -48,7 +48,7 @@ function Services() {
               y: 0,
             }}
             transition={{
-              duration:0.5
+              duration: 0.5,
             }}
           >
             <img src={men2Img} alt="" />
@@ -60,33 +60,33 @@ function Services() {
             <img src={devImg} alt="" />
           </div>
           <div className="flex justify-center items-center md:items-start flex-col gap-10 md:mr-20 mx-2">
-            <h1 className="text-5xl md:text-7xl font-medium">Devlopment</h1>
+            <h1 className="text-5xl md:text-7xl font-medium">
+              Digital Marketing
+            </h1>
             <div className="flex max-md:flex-col max-md:gap-4 items-center justify-between bg-white bg-opacity-10 py-4 px-4 md:px-10 rounded-3xl max-md:mx-2">
-              <div className="flex max-md:flex-col items-center gap-4">
+              <div className="flex max-md:flex-col items-center gap-2">
                 <div className="flex flex-col justify-center items-center gap-2">
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium">Web Dev</h1>
+                <h1 className="text-5xl font-medium">Publicité en Ligne</h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
-                Bring Your Ideas To Life With Custom Websites That Combine
-                Stunning Design With Seamless Fuctionality, Ensuring A
-                User-Friendly And Optimized Online Presence.
+                Gestion de campagnes publicitaires sur les réseaux sociaux et
+                les moteurs de recherche pour atteindre votre public cible.
               </p>
             </div>
             <div className="flex max-md:flex-col max-md:gap-4 items-center justify-between bg-white bg-opacity-10 py-4 px-4 md:px-10 rounded-3xl max-md:mx-2">
-              <div className="flex max-md:flex-col items-center gap-4">
+              <div className="flex max-md:flex-col items-center gap-2">
                 <div className="flex flex-col justify-center items-center gap-2">
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium">Web Dev</h1>
+                <h1 className="text-5xl font-medium">Stratégie Marketing</h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
-                Bring Your Ideas To Life With Custom Websites That Combine
-                Stunning Design With Seamless Fuctionality, Ensuring A
-                User-Friendly And Optimized Online Presence.
+                Développement de stratégies marketing complètes et
+                personnalisées pour répondre à vos objectifs commerciaux.
               </p>
             </div>
             <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
@@ -99,7 +99,7 @@ function Services() {
           <div className="flex justify-center items-center md:items-start flex-col gap-10 lg:ml-20">
             <h1 className="text-5xl md:text-7xl font-medium">Devlopment</h1>
             <div className="flex max-md:flex-col max-md:gap-4 items-center justify-between bg-white bg-opacity-10 py-4 px-4 md:px-10 rounded-3xl max-md:mx-2">
-              <div className="flex max-md:flex-col items-center gap-4">
+              <div className="flex max-md:flex-col items-center gap-2">
                 <div className="flex flex-col justify-center items-center gap-2">
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
@@ -107,23 +107,22 @@ function Services() {
                 <h1 className="text-5xl font-medium">Web Dev</h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
-                Bring Your Ideas To Life With Custom Websites That Combine
-                Stunning Design With Seamless Fuctionality, Ensuring A
-                User-Friendly And Optimized Online Presence.
+                Nous créons des sites web professionnels, fonctionnels et
+                esthétiques. Nos services de développement web
               </p>
             </div>
             <div className="flex max-md:flex-col max-md:gap-4 items-center justify-between bg-white bg-opacity-10 py-4 px-4 md:px-10 rounded-3xl max-md:mx-2">
-              <div className="flex max-md:flex-col items-center gap-4">
+              <div className="flex max-md:flex-col items-center gap-2">
                 <div className="flex flex-col justify-center items-center gap-2">
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium">Web Dev</h1>
+                <h1 className="text-5xl font-medium">Mobile Dev</h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
-                Bring Your Ideas To Life With Custom Websites That Combine
-                Stunning Design With Seamless Fuctionality, Ensuring A
-                User-Friendly And Optimized Online Presence.
+                Notre équipe de développeurs mobiles crée des applications
+                natives et hybrides pour iOS et Android, conçues pour offrir une
+                expérience
               </p>
             </div>
             <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
@@ -144,31 +143,29 @@ function Services() {
               Designe & Branding
             </h1>
             <div className="flex max-md:flex-col max-md:gap-4 items-center justify-between bg-white bg-opacity-10 py-4 px-4 md:px-10 rounded-3xl max-md:mx-2">
-              <div className="flex max-md:flex-col items-center gap-4">
+              <div className="flex max-md:flex-col items-center gap-2">
                 <div className="flex flex-col justify-center items-center gap-2">
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium">Web Dev</h1>
+                <h1 className="text-5xl font-medium">Design Graphique</h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
-                Bring Your Ideas To Life With Custom Websites That Combine
-                Stunning Design With Seamless Fuctionality, Ensuring A
-                User-Friendly And Optimized Online Presence.
+                Création de logos, identités visuelles, et supports de
+                communication variés.
               </p>
             </div>
             <div className="flex max-md:flex-col max-md:gap-4 items-center justify-between bg-white bg-opacity-10 py-4 px-4 md:px-10 rounded-3xl max-md:mx-2">
-              <div className="flex max-md:flex-col items-center gap-4">
+              <div className="flex max-md:flex-col items-center gap-2">
                 <div className="flex flex-col justify-center items-center gap-2">
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium">Web Dev</h1>
+                <h1 className="text-5xl font-medium">UI/UX Design</h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
-                Bring Your Ideas To Life With Custom Websites That Combine
-                Stunning Design With Seamless Fuctionality, Ensuring A
-                User-Friendly And Optimized Online Presence.
+                Conception d'interfaces utilisateur intuitives et attractives
+                pour améliorer l'expérience utilisateur.
               </p>
             </div>
             <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
