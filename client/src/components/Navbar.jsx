@@ -16,9 +16,12 @@ function Navbar() {
             open ? "flex" : "hidden"
           } md:flex flex-col max-md:absolute top-[-34px] right-[-10px] left-36 justify-start gap-8 bg-[#0C0012] md:bg-transparent max-md:pt-16 z-50 max-md:h-screen`}
         >
-          <IoIosClose className="text-3xl absolute top-3 left-3 md:hidden" onClick={() => {
+          <IoIosClose
+            className="text-3xl absolute top-3 left-3 md:hidden"
+            onClick={() => {
               setOpen(!open);
-            }}/>
+            }}
+          />
           <div className="md:hidden flex flex-col justify-center items-center text-center">
             <img src={responsiveLogo} alt="" />
             <h1 className="text-3xl font-medium">Adwave.</h1>
