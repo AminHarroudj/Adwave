@@ -60,7 +60,7 @@ function Services() {
             <img src={devImg} alt="" />
           </div>
           <div className="flex justify-center items-center md:items-start flex-col gap-10 md:mr-20 mx-2">
-            <h1 className="text-5xl md:text-7xl font-medium">
+            <h1 className="text-5xl md:text-7xl font-medium text-center">
               Digital Marketing
             </h1>
             <div className="flex max-md:flex-col max-md:gap-4 items-center justify-between bg-white bg-opacity-10 py-4 px-4 md:px-10 rounded-3xl max-md:mx-2">
@@ -69,7 +69,7 @@ function Services() {
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium">Publicité en Ligne</h1>
+                <h1 className="text-5xl font-medium text-center">Publicité en Ligne</h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
                 Gestion de campagnes publicitaires sur les réseaux sociaux et
@@ -82,7 +82,7 @@ function Services() {
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium">Stratégie Marketing</h1>
+                <h1 className="text-5xl font-medium text-center">Stratégie Marketing</h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
                 Développement de stratégies marketing complètes et
@@ -104,7 +104,7 @@ function Services() {
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium">Web Dev</h1>
+                <h1 className="text-5xl font-medium text-center">Web Dev</h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
                 Nous créons des sites web professionnels, fonctionnels et
@@ -117,7 +117,7 @@ function Services() {
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium">Mobile Dev</h1>
+                <h1 className="text-5xl font-medium text-center">Mobile Dev</h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
                 Notre équipe de développeurs mobiles crée des applications
@@ -148,7 +148,7 @@ function Services() {
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium">Design Graphique</h1>
+                <h1 className="text-5xl font-medium text-center">Design Graphique</h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
                 Création de logos, identités visuelles, et supports de
@@ -161,7 +161,7 @@ function Services() {
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium">UI/UX Design</h1>
+                <h1 className="text-5xl font-medium text-center">UI/UX Design</h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
                 Conception d'interfaces utilisateur intuitives et attractives
