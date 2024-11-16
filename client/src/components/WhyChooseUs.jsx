@@ -9,7 +9,7 @@ import BestQuality from "../components/BestQuality";
 function WhyChooseUs() {
   return (
     <>
-      <div className="flex flex-col gap-10 items-center mt-20 md:mt-80">
+      <div className="flex flex-col gap-10 items-center mt-20 md:mt-72">
         <div className="flex flex-col gap-10">
           <div className="flex justify-center md:justify-end text-lg md:text-xl">
             <div className="bg-[#66019670] flex items-center py-2 px-6 gap-4 rounded-full md:mx-12 border-2 border-[#BF36FF]">

@@ -69,7 +69,9 @@ function Services() {
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium text-center">Publicité en Ligne</h1>
+                <h1 className="text-5xl font-medium text-center">
+                  Publicité en Ligne
+                </h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
                 Gestion de campagnes publicitaires sur les réseaux sociaux et
@@ -82,7 +84,9 @@ function Services() {
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium text-center">Stratégie Marketing</h1>
+                <h1 className="text-5xl font-medium text-center">
+                  Stratégie Marketing
+                </h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
                 Développement de stratégies marketing complètes et
@@ -148,7 +152,9 @@ function Services() {
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium text-center">Design Graphique</h1>
+                <h1 className="text-5xl font-medium text-center">
+                  Design Graphique
+                </h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
                 Création de logos, identités visuelles, et supports de
@@ -161,11 +167,13 @@ function Services() {
                   <p className="text-5xl font-medium">01</p>
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
-                <h1 className="text-5xl font-medium text-center">UI/UX Design</h1>
+                <h1 className="text-5xl font-medium text-center">
+                  UI/UX Design
+                </h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
-                Conception d'interfaces utilisateur intuitives et attractives
-                pour améliorer l'expérience utilisateur.
+                Conception d&apos;interfaces utilisateur intuitives et
+                attractives pour améliorer l&apos;expérience utilisateur.
               </p>
             </div>
             <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
