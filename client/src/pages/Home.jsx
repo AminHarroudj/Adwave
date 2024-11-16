@@ -18,10 +18,10 @@ function Home() {
           backgroundImage: `url('${bg}')`,
           backgroundRepeat: "no-repeat",
         }}
-        className="bg-top md:bg-cover md:bg-left-top"
+        className="md:bg-cover md:bg-center max-md:bg-top"
         id="home"
       >
-        <div className="flex flex-col items-center pt-56 md:pt-44 gap-36">
+        <div className="flex flex-col items-center pt-52 md:pt-56 gap-36">
           <div className="flex flex-col justify-center items-center text-center gap-2">
             <p className="text-3xl md:text-5xl">We Are</p>
             <h1 className="text-7xl md:text-9xl font-semibold">
