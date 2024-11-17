@@ -70,16 +70,7 @@ function WhoWeAre() {
               year={"2023"}
               title={"Delta"}
               description={
-                "En 2023, nous avons réinventé notre entreprise sous le nom 'Adwave', marquant notre entrée sur le marché avec détermination en proposant une gamme complète de services notamment le développement web le développement mobile et le marketing digital. et Accompagner les entreprises pour etablir leur presence en ligne"
-              }
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Project
-              year={"2021"}
-              title={"Delta"}
-              description={
-                "Fondée En 2021 Sous Le Nom De 'Delta', S'est Initialement Spécialisée Dans La Formation Dans Les Domaines Du Développement Web Et Du Designe."
+                "En 2023, nous avons réinventé notre entreprise sous le nom 'Adwave', marquant notre entrée sur le marché avec détermination en proposant une gamme complète de services."
               }
             />
           </SwiperSlide>

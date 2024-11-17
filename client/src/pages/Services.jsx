@@ -71,12 +71,12 @@ function Services() {
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
                 <h1 className="text-5xl font-medium text-center">
-                  Publicité en Ligne
+                  Stratégie Marketing
                 </h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
-                Gestion de campagnes publicitaires sur les réseaux sociaux et
-                les moteurs de recherche pour atteindre votre public cible.
+                Développement de stratégies marketing complètes et
+                personnalisées pour répondre à vos objectifs commerciaux.
               </p>
             </div>
             <div className="flex max-md:flex-col max-md:gap-4 items-center justify-between bg-white bg-opacity-10 py-4 px-4 md:px-10 rounded-3xl max-md:mx-2">
@@ -86,12 +86,12 @@ function Services() {
                   <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
                 </div>
                 <h1 className="text-5xl font-medium text-center">
-                  Stratégie Marketing
+                  Publicité en Ligne
                 </h1>
               </div>
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
-                Développement de stratégies marketing complètes et
-                personnalisées pour répondre à vos objectifs commerciaux.
+                Gestion de campagnes publicitaires sur les réseaux sociaux et
+                les moteurs de recherche pour atteindre votre public cible.
               </p>
             </div>
             <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">

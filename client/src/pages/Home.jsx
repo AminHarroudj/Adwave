@@ -5,7 +5,7 @@ import OurWork from "../components/OurWork";
 import WhyChooseUs from "../components/WhyChooseUs";
 import OurServices from "../components/OurServices";
 import WhoWeAre from "../components/WhoWeAre";
-import bg from "../assets/background1.png";
+import bg from "../assets/bg1.png";
 import Footer from "../components/Footer";
 import { Typewriter } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
@@ -18,10 +18,10 @@ function Home() {
           backgroundImage: `url('${bg}')`,
           backgroundRepeat: "no-repeat",
         }}
-        className="md:bg-cover md:bg-center max-md:bg-top"
+        className="md:bg-cover md:bg-top max-md:bg-top"
         id="home"
       >
-        <div className="flex flex-col items-center pt-52 md:pt-56 gap-36">
+        <div className="flex flex-col items-center pt-60 md:pt-48 gap-36">
           <div className="flex flex-col justify-center items-center text-center gap-2">
             <p className="text-3xl md:text-5xl">We Are</p>
             <h1 className="text-7xl md:text-9xl font-semibold">

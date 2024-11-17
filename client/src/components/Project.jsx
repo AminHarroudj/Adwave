@@ -5,7 +5,7 @@ function Project({ year, title, description }) {
   return (
     <>
       <motion.div
-        className="flex flex-col items-center pt-10 max-md:h-[476px]"
+        className="flex flex-col items-center pt-10 max-md:h-[336px]"
         initial={{
           y: 0,
         }}
