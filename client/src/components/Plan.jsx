@@ -1,6 +1,6 @@
 import Service from "../components/Service";
 
-function OurServices() {
+function Plan() {
   return (
     <>
       <div className="flex flex-col gap-10 items-center mt-20 md:mt-40">
@@ -13,10 +13,10 @@ function OurServices() {
             </div>
           </div>
           <div className="text-6xl md:text-9xl font-semibold max-md:text-center">
-            Nos{" "}
+            Notre{" "}
             <span className="px-4 bg-[#f73cfb]">
               <span className="text-6xl md:text-9xl font-semibold bg-[#AB1DEE]">
-                Services
+                Plan
               </span>
             </span>
           </div>
@@ -24,23 +24,18 @@ function OurServices() {
         <div>
           <Service
             num={"01"}
-            title={"Digital Marketing"}
-            description={`Nous élaborons des stratégies de marketing digital pour accroître votre visibilité en ligne et attirer plus de clients`}
+            title={"Analyse et Audit"}
+            description={`Nous commençons par une analyse approfondie de votre situation actuelle et de vos besoins, en identifiant les faiblesses et les opportunités.`}
           />
           <Service
             num={"02"}
-            title={"Web Dev"}
-            description={`Nous créons des sites web professionnels, fonctionnels et esthétiques. Nos services de développement web.`}
+            title={"Stratégie sur Mesure"}
+            description={`Ensuite, nous élaborons une stratégie digitale personnalisée, incluant la création de contenu, l'optimisation des réseaux sociaux, et le développement web, pour vous positionner comme un leader dans votre secteur.`}
           />
           <Service
             num={"03"}
-            title={"Mobile Dev"}
-            description={`Notre équipe de développeurs mobiles crée des applications natives et hybrides pour iOS et Android, conçues pour offrir une expérience`}
-          />
-          <Service
-            num={"04"}
-            title={"Graphic Design"}
-            description={`Nous croyons que le design est au coeur de toute bonne communication visuelle. Nos services de design`}
+            title={"Exécution et Suivi"}
+            description={`Enfin, nous mettons en oeuvre la stratégie avec un suivi régulier, ajustant les actions en fonction des résultats pour garantir que vous atteignez vos objectifs.`}
           />
         </div>
       </div>
@@ -48,4 +43,4 @@ function OurServices() {
   );
 }
 
-export default OurServices;
+export default Plan;

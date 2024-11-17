@@ -39,7 +39,7 @@ function About() {
           >
             <h1 className="text-7xl md:text-9xl font-semibold">About Adwave</h1>
             <p className="text-lg md:text-2xl opacity-50">
-              Empowring Brands ... Enriching Experiences
+              Valoriser les marques ... Enrichir les expériences
             </p>
           </motion.div>
         </div>
@@ -54,10 +54,10 @@ function About() {
               </div>
             </div>
             <div className="text-7xl md:text-9xl font-semibold text-center">
-              Our{" "}
+              Notre{" "}
               <span className="px-4 bg-[#f73cfb]">
                 <span className="text-7xl md:text-9xl font-semibold bg-[#AB1DEE]">
-                  Team
+                  Equipe
                 </span>
               </span>
             </div>

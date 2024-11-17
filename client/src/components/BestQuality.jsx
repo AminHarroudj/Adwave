@@ -5,7 +5,7 @@ function BestQuality({ num, title, description }) {
   return (
     <>
       <motion.div
-        className="flex flex-col md:mt-10 gap-4 md:gap-10 bg-[#66019670] p-6 rounded-3xl"
+        className="flex flex-col md:h-[250px] md:mt-10 gap-4 md:gap-10 bg-[#66019670] p-6 rounded-3xl"
         whileHover={{
           y: -30,
           backgroundImage: `url('${bg}')`,

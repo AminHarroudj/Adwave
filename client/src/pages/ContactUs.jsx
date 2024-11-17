@@ -30,7 +30,7 @@ function ContactUs() {
           >
             <h1 className="text-7xl md:text-9xl font-semibold">Contact Us</h1>
             <p className="text-lg md:text-2xl opacity-50">
-              Empowring Brands ... Enriching Experiences
+              Valoriser les marques ... Enrichir les expériences
             </p>
           </motion.div>
         </motion.div>

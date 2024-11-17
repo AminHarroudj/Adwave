@@ -19,10 +19,10 @@ function WhoWeAre() {
           </div>
         </div>
         <div className="text-6xl md:text-9xl font-semibold max-md:text-center">
-          Who{" "}
+          Qui{" "}
           <span className="px-4 bg-[#f73cfb]">
             <span className="text-6xl md:text-9xl font-semibold bg-[#AB1DEE]">
-              Are We
+              Sommes-nous
             </span>
           </span>
         </div>
@@ -79,7 +79,7 @@ function WhoWeAre() {
       <div className="flex justify-center items-center mt-10 md:mt-24">
         <Link to={"/contact"}>
           <button className="text-lg md:text-3xl font-medium  border-2 border-[#BF36FF] py-4 px-10 md:px-28 rounded-3xl bg-[#B925FF] bg-opacity-20 hover:bg-[#B925FF] duration-300">
-            Contact Us
+            Contactez-nous
           </button>
         </Link>
       </div>

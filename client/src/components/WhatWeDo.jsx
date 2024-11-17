@@ -4,12 +4,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import BestQuality from "../components/BestQuality";
+import BestQuality from "./BestQuality";
 
 function WhyChooseUs() {
   return (
     <>
-      <div className="flex flex-col gap-10 items-center mt-20 md:mt-72">
+      <div className="flex flex-col gap-10 items-center mt-20 md:mt-40">
         <div className="flex flex-col gap-10">
           <div className="flex justify-center md:justify-end text-lg md:text-xl">
             <div className="bg-[#66019670] flex items-center py-2 px-6 gap-4 rounded-full md:mx-12 border-2 border-[#BF36FF]">
@@ -19,10 +19,10 @@ function WhyChooseUs() {
             </div>
           </div>
           <div className="text-6xl md:text-9xl font-semibold max-md:text-center">
-            What{" "}
+            Ce Que{" "}
             <span className="px-4 bg-[#f73cfb]">
               <span className="text-6xl md:text-9xl font-semibold bg-[#AB1DEE]">
-                We Do
+                Nous Faisons
               </span>
             </span>
           </div>
@@ -53,7 +53,7 @@ function WhyChooseUs() {
               num={"01"}
               title={"Renforcer votre presence sur le marchè"}
               description={
-                "Content Content Content Content Content Content Content Content Content Content Content Content Content "
+                "Améliorer la visibilité, la reconnaissance et l'impact de votre entreprise dans son secteur."
               }
             />
           </SwiperSlide>
@@ -62,16 +62,16 @@ function WhyChooseUs() {
               num={"02"}
               title={"Augmenter votre chiffre d'affaire"}
               description={
-                "Content Content Content Content Content Content Content Content Content Content Content Content Content "
+                "Accroître les revenus générés par votre entreprise. Cela peut être réalisé en augmentant le volume des ventes."
               }
             />
           </SwiperSlide>
           <SwiperSlide>
             <BestQuality
               num={"03"}
-              title={"Innover continuellement dans le domaine digital."}
+              title={"Innover continuellement dans le domaine digital"}
               description={
-                "Content Content Content Content Content Content Content Content Content Content Content Content Content "
+                "Rester à l'avant-garde des technologies et des tendances du numérique en mettant en œuvre de nouvelles idées."
               }
             />
           </SwiperSlide>
@@ -80,7 +80,7 @@ function WhyChooseUs() {
               num={"04"}
               title={"Positionner comme leader dans le marchè"}
               description={
-                "Content Content Content Content Content Content Content Content Content Content Content Content Content "
+                "établir une entreprise comme la référence principale dans son secteur."
               }
             />
           </SwiperSlide>

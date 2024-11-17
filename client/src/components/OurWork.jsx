@@ -4,12 +4,12 @@ import herfatechImg from "../assets/herfatech.png";
 function OurWork() {
   return (
     <>
-      <div className="flex items-center justify-center mt-24 md:mt-64">
+      <div className="flex items-center justify-center mt-24 md:mt-40">
         <div className="text-6xl md:text-9xl font-semibold max-md:text-center">
-          Our{" "}
+          Notre{" "}
           <span className="px-4 bg-[#f73cfb]">
             <span className="text-6xl md:text-9xl font-semibold bg-[#AB1DEE]">
-              Work
+              Travail
             </span>
           </span>
         </div>

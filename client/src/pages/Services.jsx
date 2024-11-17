@@ -2,7 +2,7 @@ import men2Img from "../assets/men2.png";
 import devImg from "../assets/component.png";
 import marketingImg from "../assets/img10.png";
 import Form from "../components/Form";
-import WhyChooseUs from "../components/WhyChooseUs";
+import WhyChooseUs from "../components/WhatWeDo";
 import bg from "../assets/background2.png";
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
@@ -33,10 +33,10 @@ function Services() {
               duration: 0.5,
             }}
           >
-            <p className="text-3xl md:text-5xl">Discover Our</p>
+            <p className="text-3xl md:text-5xl">Découvrez Nos</p>
             <h1 className="text-7xl md:text-9xl font-semibold">Services.</h1>
             <p className="text-lg md:text-2xl opacity-50">
-              Empowring Brands ... Enriching Experiences
+              Valoriser les marques ... Enrichir les expériences
             </p>
           </motion.div>
           <motion.div
@@ -95,14 +95,14 @@ function Services() {
               </p>
             </div>
             <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
-              Demand Free Consultation
+              Demandez une consultation gratuite
             </button>
           </div>
         </div>
 
         <div className="flex items-center mt-20 mx-2">
           <div className="flex justify-center items-center md:items-start flex-col gap-10 lg:ml-20">
-            <h1 className="text-5xl md:text-7xl font-medium">Devlopment</h1>
+            <h1 className="text-5xl md:text-7xl font-medium">Développement</h1>
             <div className="flex max-md:flex-col max-md:gap-4 items-center justify-between bg-white bg-opacity-10 py-4 px-4 md:px-10 rounded-3xl max-md:mx-2">
               <div className="flex max-md:flex-col items-center gap-2">
                 <div className="flex flex-col justify-center items-center gap-2">
@@ -131,7 +131,7 @@ function Services() {
               </p>
             </div>
             <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
-              Demand Free Consultation
+              Demandez une consultation gratuite
             </button>
           </div>
           <div className="w-11/12 max-lg:hidden">
@@ -178,7 +178,7 @@ function Services() {
               </p>
             </div>
             <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
-              Demand Free Consultation
+              Demandez une consultation gratuite
             </button>
           </div>
         </div>
