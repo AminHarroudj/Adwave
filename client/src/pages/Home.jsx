@@ -7,9 +7,9 @@ import OurServices from "../components/OurServices";
 import WhoWeAre from "../components/WhoWeAre";
 import bg from "../assets/bg1.png";
 import Footer from "../components/Footer";
-import { Typewriter } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
 import Plan from "../components/Plan";
+import { ReactTyped } from "react-typed";
 
 function Home() {
   return (
@@ -26,22 +26,22 @@ function Home() {
           <div className="flex flex-col justify-center items-center text-center gap-2">
             <p className="text-3xl md:text-5xl">Nous Sommes</p>
             <h1 className="text-7xl md:text-9xl font-bold">
-              <Typewriter
-                words={["Adwave."]}
-                loop={10000000}
-                cursor
-                cursorStyle="|"
-                typeSpeed={100}
-                deleteSpeed={100}
-                delaySpeed={1000}
-              />
+              <ReactTyped
+                strings={["Adwave."]}
+                typeSpeed={60}
+                backSpeed={60}
+                loop
+              >
+                <span className="font-bold"></span>
+              </ReactTyped>
             </h1>
+
             <p className="text-lg md:text-2xl opacity-50">
               Valoriser les marques ... Enrichir les expériences
             </p>
             <Link to={"/contact"}>
               <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#180023]  mt-10 hover:bg-[#B925FF] duration-300 z-50">
-              Demandez une consultation gratuite
+                Demandez une consultation gratuite
               </button>
             </Link>
           </div>
