@@ -23,22 +23,22 @@ function OurServices() {
         </div>
         <div>
           <Service
-            num={"14"}
+            num={"01"}
             title={"Digital Marketing"}
             description={`Nous élaborons des stratégies de marketing digital pour accroître votre visibilité en ligne et attirer plus de clients`}
           />
           <Service
-            num={"03"}
+            num={"02"}
             title={"Web Dev"}
             description={`Nous créons des sites web professionnels, fonctionnels et esthétiques. Nos services de développement web.`}
           />
           <Service
-            num={"07"}
+            num={"03"}
             title={"Mobile Dev"}
             description={`Notre équipe de développeurs mobiles crée des applications natives et hybrides pour iOS et Android, conçues pour offrir une expérience`}
           />
           <Service
-            num={"09"}
+            num={"04"}
             title={"Graphic Design"}
             description={`Nous croyons que le design est au coeur de toute bonne communication visuelle. Nos services de design`}
           />
