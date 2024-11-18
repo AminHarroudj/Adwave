@@ -32,6 +32,7 @@ function Services() {
             transition={{
               duration: 0.5,
             }}
+            viewport={{ once: true }}
           >
             <p className="text-3xl md:text-5xl">Découvrez Nos</p>
             <h1 className="text-7xl md:text-9xl font-semibold">Services.</h1>
@@ -51,6 +52,7 @@ function Services() {
             transition={{
               duration: 0.5,
             }}
+            viewport={{ once: true }}
           >
             <img src={men2Img} alt="" />
           </motion.div>

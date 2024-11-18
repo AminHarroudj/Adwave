@@ -11,43 +11,65 @@ function Footer() {
       <div className="flex flex-col max-md:items-center max-md:text-center gap-10 md:gap-28 bg-black py-10 md:py-28 px-16 border-t-4 border-[#BF36FF] mt-44">
         <div className="grid grid-cols-1 md:grid-cols-4 max-md:gap-6">
           <div className="flex flex-col gap-6">
-            <h1 className="text-2xl">About Us</h1>
+            <h1 className="text-2xl">Home</h1>
             <ul className="flex flex-col gap-2">
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                Qui Sommes-nous
+              </li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                Ce Que Nous Faisons
+              </li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                Nos Services
+              </li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                Notre Plan
+              </li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                Notre Travail
+              </li>
+            </ul>
+          </div>
+          <div className="flex flex-col gap-6">
+            <h1 className="text-2xl">Services</h1>
+            <ul className="flex flex-col gap-2">
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                Digital Marketing
+              </li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                Développement
+              </li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                Designe & Branding
+              </li>
+            </ul>
+          </div>
+          <div className="flex flex-col gap-6">
+            <h1 className="text-2xl">Contact</h1>
+            <ul className="flex flex-col gap-2">
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                Contact
+              </li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                Contactez Nous
+              </li>
             </ul>
           </div>
           <div className="flex flex-col gap-6">
             <h1 className="text-2xl">About Us</h1>
             <ul className="flex flex-col gap-2">
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-            </ul>
-          </div>
-          <div className="flex flex-col gap-6">
-            <h1 className="text-2xl">About Us</h1>
-            <ul className="flex flex-col gap-2">
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-            </ul>
-          </div>
-          <div className="flex flex-col gap-6">
-            <h1 className="text-2xl">About Us</h1>
-            <ul className="flex flex-col gap-2">
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">About Us</li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                Qui Sommes-nous
+              </li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                Notre Equipe
+              </li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                Contactez Nous
+              </li>
+              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                Location
+              </li>
             </ul>
           </div>
         </div>
@@ -64,24 +86,20 @@ function Footer() {
             <h1 className="text-4xl font-medium">Contact</h1>
             <ul className="flex flex-col gap-2">
               <li className="text-lg text-white text-opacity-50">
-                Contact@Adwave.Com
+                z_houam@adwave.agency
               </li>
-              <li className="text-lg text-white text-opacity-50">
-                Contact@Adwave.Com
-              </li>
-              <li className="text-lg text-white text-opacity-50">
-                Contact@Adwave.Com
-              </li>
+              <li className="text-lg text-white text-opacity-50">0656569260</li>
+              <li className="text-lg text-white text-opacity-50">0540487930</li>
             </ul>
           </div>
         </div>
         <div className="flex flex-col gap-4 items-center text-center">
           <div className="flex gap-6 text-4xl">
-            <PiInstagramLogoFill className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300"/>
-            <FaXTwitter className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300"/>
-            <FaYoutube className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300"/>
-            <BsLinkedin className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300"/>
-            <FaFacebook className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300"/>
+            <PiInstagramLogoFill className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
+            <FaXTwitter className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
+            <FaYoutube className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
+            <BsLinkedin className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
+            <FaFacebook className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
           </div>
           <div>
             <p className="text-white text-opacity-50">
