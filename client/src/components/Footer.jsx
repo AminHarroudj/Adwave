@@ -4,6 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -13,63 +14,91 @@ function Footer() {
           <div className="flex flex-col gap-6">
             <h1 className="text-2xl">Home</h1>
             <ul className="flex flex-col gap-2">
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
-                Qui Sommes-nous
-              </li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
-                Ce Que Nous Faisons
-              </li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
-                Nos Services
-              </li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
-                Notre Plan
-              </li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
-                Notre Travail
-              </li>
+              <Link to={"/"}>
+                <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                  Qui Sommes-nous
+                </li>
+              </Link>
+              <Link to={"/"}>
+                <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                  Ce Que Nous Faisons
+                </li>
+              </Link>
+              <Link to={"/"}>
+                <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                  Nos Services
+                </li>
+              </Link>
+              <Link to={"/"}>
+                <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                  Notre Plan
+                </li>
+              </Link>
+              <Link to={"/"}>
+                <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                  Notre Travail
+                </li>
+              </Link>
             </ul>
           </div>
           <div className="flex flex-col gap-6">
             <h1 className="text-2xl">Services</h1>
             <ul className="flex flex-col gap-2">
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
-                Digital Marketing
-              </li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
-                Développement
-              </li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
-                Designe & Branding
-              </li>
+              <Link to={"/services"}>
+                <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                  Digital Marketing
+                </li>
+              </Link>
+              <Link to={"/services"}>
+                <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                  Développement
+                </li>
+              </Link>
+              <Link to={"/services"}>
+                <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                  Designe & Branding
+                </li>
+              </Link>
             </ul>
           </div>
           <div className="flex flex-col gap-6">
             <h1 className="text-2xl">Contact</h1>
             <ul className="flex flex-col gap-2">
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
-                Contact
-              </li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
-                Contactez Nous
-              </li>
+              <Link to={"/contact"}>
+                <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                  Contact
+                </li>
+              </Link>
+              <Link to={"/contact"}>
+                <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                  Contactez Nous
+                </li>
+              </Link>
             </ul>
           </div>
           <div className="flex flex-col gap-6">
             <h1 className="text-2xl">About Us</h1>
             <ul className="flex flex-col gap-2">
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
-                Qui Sommes-nous
-              </li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
-                Notre Equipe
-              </li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
-                Contactez Nous
-              </li>
-              <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
-                Location
-              </li>
+              <Link to={"/about"}>
+                <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                  Qui Sommes-nous
+                </li>
+              </Link>
+              <Link to={"/about"}>
+                <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                  Notre Equipe
+                </li>
+              </Link>
+              <Link to={"/about"}>
+                <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                  Contactez Nous
+                </li>
+              </Link>
+              <Link to={"/about"}>
+                <li className="text-white text-opacity-50 text-lg cursor-pointer hover:text-opacity-100 duration-300">
+                  Location
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
@@ -95,11 +124,23 @@ function Footer() {
         </div>
         <div className="flex flex-col gap-4 items-center text-center">
           <div className="flex gap-6 text-4xl">
-            <PiInstagramLogoFill className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
-            <FaXTwitter className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
-            <FaYoutube className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
-            <BsLinkedin className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
-            <FaFacebook className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
+            <Link to={"https://www.instagram.com/adwave_business/"}>
+              <PiInstagramLogoFill className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
+            </Link>
+            <Link to={""}>
+              <FaXTwitter className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
+            </Link>
+            <Link to={""}>
+              <FaYoutube className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
+            </Link>
+            <Link to={"https://www.linkedin.com/company/102419854"}>
+              <BsLinkedin className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
+            </Link>
+            <Link
+              to={"https://www.facebook.com/profile.php?id=100094580161847"}
+            >
+              <FaFacebook className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
+            </Link>
           </div>
           <div>
             <p className="text-white text-opacity-50">

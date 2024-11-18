@@ -14,12 +14,14 @@ function Location() {
     <>
       <div className="flex items-center justify-center max-md:text-center mx-2 md:mx-20 gap-10 md:gap-36 mt-24 md:mt-44 max-md:flex-col-reverse">
         <motion.div
-        whileHover={{
-          y:-30,
-          scale:1.1
-        }}
-        className="md:ml-10">
+          whileHover={{
+            y: -30,
+            scale: 1.1,
+          }}
+          className="md:ml-10 flex flex-col gap-4 justify-center items-center text-xl"
+        >
           <img src={locationImg} alt="" className="w-[300px] md:w-[600px]" />
+          <p>Location : Borj Kiffan-Alger</p>
         </motion.div>
         <div className="flex flex-col gap-10 max-md:text-center max-md:justify-center max-md:items-center">
           <div className="flex max-md:items-center flex-col gap-4">
