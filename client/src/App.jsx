@@ -8,7 +8,7 @@ import About from "./pages/About";
 function App() {
   return (
     <>
-      <div>
+      <div className="bg-[#0C0012]">
         <BrowserRouter>
           <Navbar />
           <Routes>
