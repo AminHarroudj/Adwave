@@ -22,7 +22,6 @@ function About() {
           backgroundRepeat: "no-repeat",
         }}
         className="bg-top md:bg-cover md:bg-left-top"
-        id="about"
       >
         <div className="flex flex-col items-center pt-56 md:pt-48 md:pb-40">
           <motion.div

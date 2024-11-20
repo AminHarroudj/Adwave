@@ -12,6 +12,7 @@ function Service({ num, title, description }) {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundBlendMode: "multiply",
+        backgroundColor: `rgba(171, 29, 238, 0.8)`,
       }}
       transition={{
         duration: 0.5,

@@ -20,7 +20,6 @@ function Home() {
           backgroundRepeat: "no-repeat",
         }}
         className="md:bg-cover md:bg-top max-md:bg-top"
-        id="home"
       >
         <div className="flex flex-col items-center pt-60 md:pt-48 gap-36">
           <div className="flex flex-col justify-center items-center text-center gap-2">

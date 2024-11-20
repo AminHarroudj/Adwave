@@ -16,7 +16,6 @@ function Services() {
           backgroundRepeat: "no-repeat",
         }}
         className="bg-top md:bg-cover md:bg-left-top"
-        id="services"
       >
         <div className="flex flex-col md:flex-row justify-between pt-32 md:ml-10 ml-2">
           <motion.div
@@ -63,6 +62,42 @@ function Services() {
             <img src={devImg} alt="" />
           </div>
           <div className="flex justify-center items-center md:items-start flex-col gap-10 md:mr-20 mx-2">
+            <h1 className="text-5xl md:text-7xl font-medium">Développement</h1>
+            <div className="flex max-md:flex-col max-md:gap-4 items-center justify-between bg-white bg-opacity-10 py-4 px-4 md:px-10 rounded-3xl max-md:mx-2">
+              <div className="flex max-md:flex-col items-center gap-2">
+                <div className="flex flex-col justify-center items-center gap-2">
+                  <p className="text-5xl font-medium">01</p>
+                  <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
+                </div>
+                <h1 className="text-5xl font-medium text-center">Web Dev</h1>
+              </div>
+              <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
+                Nous créons des sites web professionnels, fonctionnels et
+                esthétiques. Nos services de développement web
+              </p>
+            </div>
+            <div className="flex max-md:flex-col max-md:gap-4 items-center justify-between bg-white bg-opacity-10 py-4 px-4 md:px-10 rounded-3xl max-md:mx-2">
+              <div className="flex max-md:flex-col items-center gap-2">
+                <div className="flex flex-col justify-center items-center gap-2">
+                  <p className="text-5xl font-medium">01</p>
+                  <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
+                </div>
+                <h1 className="text-5xl font-medium text-center">Mobile Dev</h1>
+              </div>
+              <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
+                Notre équipe de développeurs mobiles crée des applications
+                natives et hybrides pour iOS et Android, conçues pour offrir une
+                expérience
+              </p>
+            </div>
+            <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
+              Demandez une consultation gratuite
+            </button>
+          </div>
+        </div>
+
+        <div className="flex items-center mt-20 mx-2">
+          <div className=" flex justify-center items-center md:items-start flex-col gap-10 lg:ml-20">
             <h1 className="text-5xl md:text-7xl font-medium text-center">
               Digital Marketing
             </h1>
@@ -94,42 +129,6 @@ function Services() {
               <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
                 Gestion de campagnes publicitaires sur les réseaux sociaux et
                 les moteurs de recherche pour atteindre votre public cible.
-              </p>
-            </div>
-            <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
-              Demandez une consultation gratuite
-            </button>
-          </div>
-        </div>
-
-        <div className="flex items-center mt-20 mx-2">
-          <div className="flex justify-center items-center md:items-start flex-col gap-10 lg:ml-20">
-            <h1 className="text-5xl md:text-7xl font-medium">Développement</h1>
-            <div className="flex max-md:flex-col max-md:gap-4 items-center justify-between bg-white bg-opacity-10 py-4 px-4 md:px-10 rounded-3xl max-md:mx-2">
-              <div className="flex max-md:flex-col items-center gap-2">
-                <div className="flex flex-col justify-center items-center gap-2">
-                  <p className="text-5xl font-medium">01</p>
-                  <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
-                </div>
-                <h1 className="text-5xl font-medium text-center">Web Dev</h1>
-              </div>
-              <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
-                Nous créons des sites web professionnels, fonctionnels et
-                esthétiques. Nos services de développement web
-              </p>
-            </div>
-            <div className="flex max-md:flex-col max-md:gap-4 items-center justify-between bg-white bg-opacity-10 py-4 px-4 md:px-10 rounded-3xl max-md:mx-2">
-              <div className="flex max-md:flex-col items-center gap-2">
-                <div className="flex flex-col justify-center items-center gap-2">
-                  <p className="text-5xl font-medium">01</p>
-                  <hr className="w-[44.82px] border-4 border-[#AB1DEE]" />
-                </div>
-                <h1 className="text-5xl font-medium text-center">Mobile Dev</h1>
-              </div>
-              <p className="text-lg text-white text-opacity-50 md:w-1/2 max-md:text-center">
-                Notre équipe de développeurs mobiles crée des applications
-                natives et hybrides pour iOS et Android, conçues pour offrir une
-                expérience
               </p>
             </div>
             <button className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">

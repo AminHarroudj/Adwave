@@ -18,7 +18,7 @@ function Project({ year, title, description }) {
       >
         <h1 className="text-5xl md:text-8xl font-medium">{year}</h1>
         <motion.div
-          className="flex flex-col justify-end gap-4 border-4 border-[#BF36FF] p-6 rounded-3xl md:w-[656.48px] h-full md:h-[385px]"
+          className="flex flex-col gap-4 border-4 border-[#BF36FF] p-6 rounded-3xl md:w-[656.48px] h-full md:h-[385px]"
           style={{
             backgroundImage: `url('${bg}')`,
             backgroundPosition: "0 0",
@@ -27,13 +27,17 @@ function Project({ year, title, description }) {
             backgroundColor: `rgba(171, 29, 238, 1)`,
             backgroundBlendMode: "multiply",
           }}
+          initial={{
+            justifyContent: "end",
+            textAlign: "start",
+          }}
           whileHover={{
-            textAlign:"center",
-            justifyContent:"center",
-            backgroundColor: "",
+            textAlign: "center",
+            justifyContent: "center",
+            backgroundColor: `rgba(171, 29, 238, 0.5)`,
           }}
           transition={{
-            duration: 1,
+            duration: 0.5,
           }}
         >
           <motion.h1 className="text-3xl md:text-5xl font-medium">

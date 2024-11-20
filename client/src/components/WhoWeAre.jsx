@@ -29,7 +29,6 @@ function WhoWeAre() {
       </div>
       <div className="mt-10 md:mt-24 mx-2">
         <Swiper
-          // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={2}
           slidesPerView={1}

@@ -18,6 +18,15 @@ import work16 from "../assets/work16.png";
 import work17 from "../assets/work17.png";
 import work18 from "../assets/work18.png";
 import work19 from "../assets/work19.png";
+import work20 from "../assets/work20.png";
+import work21 from "../assets/work21.png";
+import work22 from "../assets/work22.png";
+import work23 from "../assets/work23.png";
+import work24 from "../assets/work24.png";
+import work25 from "../assets/work25.png";
+import work26 from "../assets/work26.png";
+import work27 from "../assets/work27.png";
+
 import { useState } from "react";
 
 function OurWork() {
@@ -97,6 +106,30 @@ function OurWork() {
         </Work>
         <Work title={"Ekrili"} description={""}>
           <img src={work19} alt="" />
+        </Work>
+        <Work title={"APW Boumerdas"} description={""}>
+          <img src={work20} alt="" />
+        </Work>
+        <Work title={"Elandaloussi"} description={""}>
+          <img src={work21} alt="" />
+        </Work>
+        <Work title={"Tutoriland"} description={""}>
+          <img src={work22} alt="" />
+        </Work>
+        <Work title={"Moustachir"} description={""}>
+          <img src={work23} alt="" />
+        </Work>
+        <Work title={"Pentaque Algerie"} description={""}>
+          <img src={work24} alt="" />
+        </Work>
+        <Work title={"Dinox"} description={""}>
+          <img src={work25} alt="" />
+        </Work>
+        <Work title={"Moonassir"} description={""}>
+          <img src={work26} alt="" />
+        </Work>
+        <Work title={"KADDOUR PUB"} description={""}>
+          <img src={work27} alt="" />
         </Work>
       </div>
       <div className="flex items-center justify-center mt-6">

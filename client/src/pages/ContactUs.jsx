@@ -13,7 +13,6 @@ function ContactUs() {
           backgroundRepeat: "no-repeat",
         }}
         className="bg-top md:bg-cover md:bg-left-top"
-        id="contact"
       >
         <motion.div className="flex flex-col items-center pt-72 md:pt-48">
           <motion.div
