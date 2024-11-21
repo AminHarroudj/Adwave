@@ -38,18 +38,18 @@ function Form() {
   return (
     <>
       <div className="">
-        <div className="flex flex-col gap-10 items-center mt-20 md:mt-44">
+        <div className="flex flex-col gap-10 items-center mt-20 lg:mt-44">
           <div className="flex flex-col gap-10">
-            <div className="flex justify-center md:justify-start text-lg md:text-xl">
-              <div className="bg-[#66019670] flex items-center py-2 px-6 gap-4 rounded-full md:mx-24 border-2 border-[#BF36FF]">
+            <div className="flex justify-center lg:justify-start text-lg lg:text-xl">
+              <div className="bg-[#66019670] flex items-center py-2 px-6 gap-4 rounded-full lg:mx-24 border-2 border-[#BF36FF]">
                 <p className="text-[#BF36FF]">Follow</p>
                 <div className="w-[2.8px] h-10 bg-white opacity-70"></div>
                 <p>scroll to read more</p>
               </div>
             </div>
-            <div className="text-6xl md:text-9xl font-semibold max-md:text-center">
+            <div className="text-6xl lg:text-9xl font-semibold max-lg:text-center">
               <span className="px-4 bg-[#f73cfb]">
-                <span className="text-6xl md:text-9xl font-semibold bg-[#AB1DEE]">
+                <span className="text-6xl lg:text-9xl font-semibold bg-[#AB1DEE]">
                   Contactez
                 </span>
               </span>{" "}
@@ -57,11 +57,11 @@ function Form() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row max-md:justify-center max-md:items-center gap-10 md:mt-24 max-md:px-6">
+        <div className="flex flex-col lg:flex-row max-lg:justify-center max-lg:items-center gap-10 lg:mt-24 max-lg:px-6">
           <div>
-            <img src={menImg} alt="" className="md:h-[762px]" />
+            <img src={menImg} alt="" className="lg:h-[762px]" />
           </div>
-          <div className="flex flex-col justify-center gap-6 md:mr-28 md:w-[587px]">
+          <div className="flex flex-col justify-center gap-6 lg:mr-28 lg:w-[587px]">
             <h1 className="text-4xl font-medium">
               Veuillez remplir vos informations
             </h1>

@@ -5,7 +5,7 @@ function Project({ year, title, description }) {
   return (
     <>
       <motion.div
-        className="flex flex-col items-center pt-10 max-md:h-[336px]"
+        className="flex flex-col items-center pt-10 max-lg:h-[336px]"
         initial={{
           y: 0,
         }}
@@ -16,9 +16,9 @@ function Project({ year, title, description }) {
           duration: 0.5,
         }}
       >
-        <h1 className="text-5xl md:text-8xl font-medium">{year}</h1>
+        <h1 className="text-5xl lg:text-8xl font-medium">{year}</h1>
         <motion.div
-          className="flex flex-col gap-4 border-4 border-[#BF36FF] p-6 rounded-3xl md:w-[656.48px] h-full md:h-[385px]"
+          className="flex flex-col gap-4 border-4 border-[#BF36FF] p-6 rounded-3xl lg:w-[656.48px] h-full lg:h-[385px]"
           style={{
             backgroundImage: `url('${bg}')`,
             backgroundPosition: "0 0",
@@ -40,10 +40,10 @@ function Project({ year, title, description }) {
             duration: 0.5,
           }}
         >
-          <motion.h1 className="text-3xl md:text-5xl font-medium">
+          <motion.h1 className="text-3xl lg:text-5xl font-medium">
             {title}
           </motion.h1>
-          <motion.p className="text-lg md:text-[24px] opacity-70">
+          <motion.p className="text-lg lg:text-[24px] opacity-70">
             {description}
           </motion.p>
         </motion.div>

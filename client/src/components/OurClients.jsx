@@ -13,11 +13,11 @@ import img10 from "../assets/10.png";
 function OurClients() {
   return (
     <>
-      <div className="flex items-center justify-center mt-20 md:mt-40">
-        <div className="text-6xl md:text-9xl font-semibold max-md:text-center">
+      <div className="flex items-center justify-center mt-20 lg:mt-40">
+        <div className="text-6xl lg:text-9xl font-semibold max-lg:text-center">
           Nos{" "}
           <span className="px-4 bg-[#f73cfb]">
-            <span className="text-6xl md:text-9xl font-semibold bg-[#AB1DEE]">
+            <span className="text-6xl lg:text-9xl font-semibold bg-[#AB1DEE]">
               Clients
             </span>
           </span>

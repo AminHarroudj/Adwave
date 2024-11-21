@@ -12,9 +12,9 @@ function ContactUs() {
           backgroundImage: `url('${bg}')`,
           backgroundRepeat: "no-repeat",
         }}
-        className="bg-top md:bg-cover md:bg-left-top"
+        className="bg-top lg:bg-cover lg:bg-left-top"
       >
-        <motion.div className="flex flex-col items-center pt-72 md:pt-48">
+        <motion.div className="flex flex-col items-center pt-72 lg:pt-48">
           <motion.div
             className="flex flex-col justify-center text-center items-center gap-4"
             initial={{
@@ -27,8 +27,8 @@ function ContactUs() {
               duration: 0.5,
             }}
           >
-            <h1 className="text-7xl md:text-9xl font-semibold">Contact Us</h1>
-            <p className="text-lg md:text-2xl opacity-50">
+            <h1 className="text-7xl lg:text-9xl font-semibold">Contact Us</h1>
+            <p className="text-lg lg:text-2xl opacity-50">
               Valoriser les marques ... Enrichir les expériences
             </p>
           </motion.div>

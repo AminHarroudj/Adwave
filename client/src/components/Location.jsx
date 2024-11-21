@@ -12,20 +12,20 @@ import { motion } from "framer-motion";
 function Location() {
   return (
     <>
-      <div className="flex items-center justify-center max-md:text-center mx-2 md:mx-20 gap-10 md:gap-36 mt-24 md:mt-44 max-md:flex-col-reverse">
+      <div className="flex items-center justify-center max-lg:text-center mx-2 lg:mx-20 gap-10 lg:gap-36 mt-24 lg:mt-44 max-lg:flex-col-reverse">
         <motion.div
           whileHover={{
             y: -30,
             scale: 1.1,
           }}
-          className="md:ml-10 flex flex-col gap-4 justify-center items-center text-xl"
+          className="lg:ml-10 flex flex-col gap-4 justify-center items-center text-xl"
         >
-          <img src={locationImg} alt="" className="w-[300px] md:w-[600px]" />
+          <img src={locationImg} alt="" className="w-[300px] lg:w-[600px]" />
           <p>Location : Borj Kiffan-Alger</p>
         </motion.div>
-        <div className="flex flex-col gap-10 max-md:text-center max-md:justify-center max-md:items-center">
-          <div className="flex max-md:items-center flex-col gap-4">
-            <div className="flex items-center gap-6 md:w-[84.18px] md:h-[77.74px]">
+        <div className="flex flex-col gap-10 max-lg:text-center max-lg:justify-center max-lg:items-center">
+          <div className="flex max-lg:items-center flex-col gap-4">
+            <div className="flex items-center gap-6 lg:w-[84.18px] lg:h-[77.74px]">
               <img src={logo} alt="" />
               <h1 className="text-5xl font-medium">Adwave.</h1>
             </div>
@@ -35,7 +35,7 @@ function Location() {
               User-Friendly And Optimized Online Presence.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <div className="flex flex-col gap-4 justify-center items-start">
               <div className="bg-[#AB1DEE] p-2 rounded-full">
                 <FaPhoneAlt className="text-2xl" />

@@ -10,24 +10,24 @@ import { Link } from "react-router-dom";
 function WhoWeAre() {
   return (
     <>
-      <div className="flex flex-col gap-10 items-center mt-24 md:mt-72">
-        <div className="flex justify-center md:justify-end text-lg md:text-xl">
-          <div className="bg-[#66019670] flex items-center py-2 px-6 gap-4 rounded-full md:ml-72 border-2 border-[#BF36FF] max-md:">
+      <div className="flex flex-col gap-10 items-center mt-24 lg:mt-72">
+        <div className="flex justify-center lg:justify-end text-lg lg:text-xl">
+          <div className="bg-[#66019670] flex items-center py-2 px-6 gap-4 rounded-full lg:ml-72 border-2 border-[#BF36FF]">
             <p className="text-[#BF36FF]">Follow</p>
             <div className="w-[2.8px] h-10 bg-white opacity-70"></div>
             <p>scroll to read more</p>
           </div>
         </div>
-        <div className="text-6xl md:text-9xl font-semibold max-md:text-center">
+        <div className="text-6xl lg:text-9xl font-semibold max-lg:text-center">
           Qui{" "}
           <span className="px-4 bg-[#f73cfb]">
-            <span className="text-6xl md:text-9xl font-semibold bg-[#AB1DEE]">
+            <span className="text-6xl lg:text-9xl font-semibold bg-[#AB1DEE]">
               Sommes-nous
             </span>
           </span>
         </div>
       </div>
-      <div className="mt-10 md:mt-24 mx-2">
+      <div className="mt-10 lg:mt-24 mx-2">
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={2}
@@ -75,9 +75,9 @@ function WhoWeAre() {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className="flex justify-center items-center mt-10 md:mt-24">
+      <div className="flex justify-center items-center mt-10 lg:mt-24">
         <Link to={"/contact"}>
-          <button className="text-lg md:text-3xl font-medium  border-2 border-[#BF36FF] py-4 px-10 md:px-28 rounded-3xl bg-[#B925FF] bg-opacity-20 hover:bg-[#B925FF] duration-300">
+          <button className="text-lg lg:text-3xl font-medium  border-2 border-[#BF36FF] py-4 px-10 lg:px-28 rounded-3xl bg-[#B925FF] bg-opacity-20 hover:bg-[#B925FF] duration-300">
             Contactez-nous
           </button>
         </Link>

@@ -26,6 +26,7 @@ import work24 from "../assets/work24.png";
 import work25 from "../assets/work25.png";
 import work26 from "../assets/work26.png";
 import work27 from "../assets/work27.png";
+import work28 from "../assets/work28.png";
 
 import { useState } from "react";
 
@@ -33,17 +34,17 @@ function OurWork() {
   const [open, setOpen] = useState("");
   return (
     <>
-      <div className="flex items-center justify-center mt-24 md:mt-40">
-        <div className="text-6xl md:text-9xl font-semibold max-md:text-center">
+      <div className="flex items-center justify-center mt-24 lg:mt-40">
+        <div className="text-6xl lg:text-9xl font-semibold max-lg:text-center">
           Notre{" "}
           <span className="px-4 bg-[#f73cfb]">
-            <span className="text-6xl md:text-9xl font-semibold bg-[#AB1DEE]">
+            <span className="text-6xl lg:text-9xl font-semibold bg-[#AB1DEE]">
               Travail
             </span>
           </span>
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6 md:mt-16 mx-2">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6 lg:mt-16 mx-2">
         <Work title={"Herfatech."} description={""}>
           <img src={work1} alt="" />
         </Work>
@@ -131,10 +132,13 @@ function OurWork() {
         <Work title={"KADDOUR PUB"} description={""}>
           <img src={work27} alt="" />
         </Work>
+        <Work title={"KADDOUR PUB"} description={""}>
+          <img src={work28} alt="" />
+        </Work>
       </div>
       <div className="flex items-center justify-center mt-6">
         <button
-          className="text-lg md:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 md:px-12 rounded-3xl bg-[#180023]  mt-10 hover:bg-[#B925FF] duration-300 z-50"
+          className="text-lg lg:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 lg:px-12 rounded-3xl bg-[#180023]  mt-10 hover:bg-[#B925FF] duration-300 z-50"
           onClick={() => {
             setOpen(!open);
           }}
