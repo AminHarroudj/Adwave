@@ -1,6 +1,39 @@
 import menImg from "../assets/men.png";
+import { useState } from "react";
+import Swal from "sweetalert2";
 
 function Form() {
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "c0409d2f-79cd-41d3-88b1-9fed84b40d9e");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    }).then((res) => res.json());
+
+    if (res.success) {
+      Swal.fire({
+        title: "Successe!",
+        text: "Your message sent successeful!",
+        icon: "success",
+      });
+    }
+  };
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
   return (
     <>
       <div className="">
@@ -39,26 +72,47 @@ function Form() {
             <form
               action=""
               className="text-white flex flex-col items-end gap-6"
+              onSubmit={onSubmit}
             >
               <input
                 type="text"
+                name="name"
                 placeholder="Votre nom complet"
                 className="bg-white bg-opacity-10 text-opacity-50 p-4 rounded-xl w-full outline-none"
+                onChange={(e) => {
+                  setName(e.target.value);
+                }}
+                required
               />
               <input
                 type="email"
+                name="email"
                 placeholder="Votre Email"
                 className="bg-white bg-opacity-10 text-opacity-50 p-4 rounded-xl w-full outline-none"
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
+                required
               />
               <input
                 type="number"
+                name="phone"
                 placeholder="Votre numéro de téléphone"
                 className="bg-white bg-opacity-10 text-opacity-50 p-4 rounded-xl w-full outline-none"
+                onChange={(e) => {
+                  setPhone(e.target.value);
+                }}
+                required
               />
               <input
                 type="text"
+                name="message"
                 placeholder="Message"
                 className="bg-white bg-opacity-10 text-opacity-50 p-4 rounded-xl w-full outline-none pb-[214px]"
+                onChange={(e) => {
+                  setMessage(e.target.value);
+                }}
+                required
               />
               <button className="py-2 px-16 bg-[#AB1DEE] bg-opacity-30 rounded-full border-2 border-[#BF36FF] text-xl font-medium hover:bg-[#B925FF] duration-300">
                 Envoyer
