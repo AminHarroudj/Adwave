@@ -18,7 +18,7 @@ function WhoWeAre() {
             <p>scroll to read more</p>
           </div>
         </div>
-        <div className="text-6xl lg:text-9xl font-semibold max-lg:text-center">
+        <div className="text-6xl lg:text-9xl font-semibold text-center">
           Qui{" "}
           <span className="px-4 bg-[#f73cfb]">
             <span className="text-6xl lg:text-9xl font-semibold bg-[#AB1DEE]">

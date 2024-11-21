@@ -23,7 +23,7 @@ function About() {
         }}
         className="bg-top lg:bg-cover lg:bg-left-top"
       >
-        <div className="flex flex-col items-center pt-56 lg:pt-48 lg:pb-40">
+        <div className="flex flex-col items-center pt-56 lg:pt-48 pb-10 lg:pb-40">
           <motion.div
             className="flex flex-col justify-center items-center text-center gap-4"
             initial={{
@@ -66,7 +66,7 @@ function About() {
           <Swiper
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={180}
+            spaceBetween={20}
             slidesPerView={1}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
@@ -75,8 +75,23 @@ function About() {
                 slidesPerView: 1.8,
                 spaceBetween: 20,
               },
-
-              480: {
+              1120: {
+                slidesPerView: 1.5,
+                spaceBetween: 20,
+              },
+              1024: {
+                slidesPerView: 1.2,
+                spaceBetween: 20,
+              },
+              920: {
+                slidesPerView: 1.8,
+                spaceBetween: 20,
+              },
+              732: {
+                slidesPerView: 1.5,
+                spaceBetween: 20,
+              },
+              584: {
                 slidesPerView: 1.2,
                 spaceBetween: 20,
               },
