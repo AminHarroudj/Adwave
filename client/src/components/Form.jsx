@@ -1,7 +1,7 @@
 import menImg from "../assets/men.png";
 import { useState } from "react";
 import emailjs from "emailjs-com";
-import Swal from 'sweetalert2'
+import Swal from "sweetalert2";
 
 function Form() {
   const [formData, setFormData] = useState({
@@ -32,7 +32,13 @@ function Form() {
           icon: "success",
           title: "Your message has been sent successfuly",
           showConfirmButton: false,
-          timer: 1500
+          timer: 1500,
+        });
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+          phone: "",
         });
       })
       .catch((error) => {
@@ -42,7 +48,7 @@ function Form() {
           icon: "error",
           title: "Oops , somthing went wrong!",
           showConfirmButton: false,
-          timer: 1500
+          timer: 1500,
         });
       });
   };
