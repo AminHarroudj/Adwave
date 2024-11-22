@@ -9,7 +9,7 @@ function Navbar() {
   const [open, setOpen] = useState("");
   return (
     <>
-      <div className="flex items-center justify-between px-10 py-2 mx-2 lg:mx-10 border-[#B925FF] border-2 rounded-full fixed left-0 right-0 top-8 z-50 bg-[#B925FF] bg-opacity-20">
+      <div className="flex items-center justify-between px-10 py-2 mx-2 lg:mx-10 border-[#B925FF] border-2 rounded-full fixed left-0 right-0 top-8 z-50 bg-[#B925FF] bg-opacity-20 backdrop-blur-md">
         <img src={logo} alt="" className="w-8" />
         <div
           className={`${

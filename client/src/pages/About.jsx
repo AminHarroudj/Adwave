@@ -45,13 +45,6 @@ function About() {
         <WhoWeAre />
         <div className="flex flex-col gap-10 items-center mt-24 lg:mt-44">
           <div className="flex flex-col gap-10">
-            <div className="flex justify-center lg:justify-end text-xl">
-              <div className="bg-[#66019670] flex items-center py-2 px-6 gap-4 rounded-full mx-2 border-2 border-[#BF36FF]">
-                <p className="text-[#BF36FF]">Follow</p>
-                <div className="w-[2.8px] h-10 bg-white opacity-70"></div>
-                <p>scroll to read more</p>
-              </div>
-            </div>
             <div className="text-7xl lg:text-9xl font-semibold text-center">
               Notre{" "}
               <span className="px-4 bg-[#f73cfb]">

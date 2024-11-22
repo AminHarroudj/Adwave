@@ -6,6 +6,7 @@ function BestQuality({ num, title, description }) {
     <>
       <motion.div
         className="flex flex-col lg:h-[250px] lg:mt-10 gap-4 lg:gap-10 bg-[#66019670] p-6 rounded-3xl"
+        
         whileHover={{
           y: -30,
           backgroundImage: `url('${bg}')`,

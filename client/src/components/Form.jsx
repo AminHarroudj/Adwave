@@ -58,13 +58,6 @@ function Form() {
       <div className="">
         <div className="flex flex-col gap-10 items-center mt-20 lg:mt-44">
           <div className="flex flex-col gap-10">
-            <div className="flex justify-center lg:justify-start text-lg lg:text-xl">
-              <div className="bg-[#66019670] flex items-center py-2 px-6 gap-4 rounded-full lg:mx-24 border-2 border-[#BF36FF]">
-                <p className="text-[#BF36FF]">Follow</p>
-                <div className="w-[2.8px] h-10 bg-white opacity-70"></div>
-                <p>scroll to read more</p>
-              </div>
-            </div>
             <div className="text-6xl lg:text-9xl font-semibold max-lg:text-center">
               <span className="px-4 bg-[#f73cfb]">
                 <span className="text-6xl lg:text-9xl font-semibold bg-[#AB1DEE]">
