@@ -1,6 +1,5 @@
 import SatisfiedClient from "../components/SatisfiedClient";
 import Form from "../components/Form";
-import OurClients from "../components/OurClients";
 import OurWork from "../components/OurWork";
 import WhatWeDo from "../components/WhatWeDo";
 import OurServices from "../components/OurServices";
@@ -10,6 +9,7 @@ import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import Plan from "../components/Plan";
 import { ReactTyped } from "react-typed";
+import teamImg from "../assets/Vector.png";
 
 function Home() {
   return (
@@ -44,11 +44,35 @@ function Home() {
               </button>
             </Link>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 lg:gap-36 max-lg:px-2">
-            <SatisfiedClient number={"300+"} title={"Client Satisfait"} />
-            <SatisfiedClient number={"10+"} title={"Equipe Membre"} />
-            <SatisfiedClient number={"300+"} title={"Client Satisfait"} />
-            <SatisfiedClient number={"300+"} title={"Client Satisfait"} />
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 lg:gap-28 max-lg:px-2">
+            <SatisfiedClient number={"300+"} title={"Client Satisfait"}>
+              <img
+                src={teamImg}
+                alt=""
+                className="lg:w-[115.77px] lg:h-[82.08px] w-[80px]"
+              />
+            </SatisfiedClient>
+            <SatisfiedClient number={"10+"} title={"Equipe Membre"}>
+              <img
+                src={teamImg}
+                alt=""
+                className="lg:w-[115.77px] lg:h-[82.08px] w-[80px]"
+              />
+            </SatisfiedClient>
+            <SatisfiedClient number={"5+ Years"} title={"Experience"}>
+              <img
+                src={teamImg}
+                alt=""
+                className="lg:w-[115.77px] lg:h-[82.08px] w-[80px]"
+              />
+            </SatisfiedClient>
+            <SatisfiedClient number={"25+"} title={"Product Developed"}>
+              <img
+                src={teamImg}
+                alt=""
+                className="lg:w-[115.77px] lg:h-[82.08px] w-[80px]"
+              />
+            </SatisfiedClient>
           </div>
         </div>
         <WhoWeAre />

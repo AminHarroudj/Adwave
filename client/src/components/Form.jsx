@@ -1,6 +1,7 @@
 import menImg from "../assets/men.png";
 import { useState } from "react";
 import emailjs from "emailjs-com";
+import Swal from 'sweetalert2'
 
 function Form() {
   const [formData, setFormData] = useState({
@@ -26,11 +27,23 @@ function Form() {
       .send(serviceID, templateID, formData, userID)
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
-        alert("Email sent successfully!");
+        Swal.fire({
+          position: "center",
+          icon: "success",
+          title: "Your message has been sent successfuly",
+          showConfirmButton: false,
+          timer: 1500
+        });
       })
       .catch((error) => {
         console.error("FAILED...", error);
-        alert("Failed to send email. Please try again.");
+        Swal.fire({
+          position: "center",
+          icon: "error",
+          title: "Oops , somthing went wrong!",
+          showConfirmButton: false,
+          timer: 1500
+        });
       });
   };
 
