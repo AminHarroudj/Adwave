@@ -26,7 +26,6 @@ import work24 from "../assets/work24.png";
 import work25 from "../assets/work25.png";
 import work26 from "../assets/work26.png";
 import work27 from "../assets/work27.png";
-import work28 from "../assets/work28.png";
 
 import { useState } from "react";
 
@@ -36,10 +35,10 @@ function OurWork() {
     <>
       <div className="flex items-center justify-center mt-24 lg:mt-40">
         <div className="text-6xl lg:text-9xl font-semibold max-lg:text-center">
-          Notre{" "}
+          Nos{" "}
           <span className="px-4 bg-[#f73cfb]">
             <span className="text-6xl lg:text-9xl font-semibold bg-[#AB1DEE]">
-              Travail
+              Clients
             </span>
           </span>
         </div>
@@ -131,9 +130,6 @@ function OurWork() {
         </Work>
         <Work title={"KADDOUR PUB"} description={""}>
           <img src={work27} alt="" />
-        </Work>
-        <Work title={"KADDOUR PUB"} description={""}>
-          <img src={work28} alt="" />
         </Work>
       </div>
       <div className="flex items-center justify-center mt-6">

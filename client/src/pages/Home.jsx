@@ -56,7 +56,6 @@ function Home() {
         <OurServices />
         <Plan />
         <OurWork />
-        <OurClients />
         <Form />
         <Footer />
       </div>

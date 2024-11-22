@@ -1,38 +1,37 @@
 import menImg from "../assets/men.png";
 import { useState } from "react";
-import Swal from "sweetalert2";
+import emailjs from "emailjs-com";
 
 function Form() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [message, setMessage] = useState("");
-  
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    const formData = new FormData(event.target);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+    phone: "",
+  });
 
-    formData.append("access_key", "c0409d2f-79cd-41d3-88b1-9fed84b40d9e");
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
 
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: json,
-    }).then((res) => res.json());
+    const serviceID = "service_6m28qc3";
+    const templateID = "template_mckatkq";
+    const userID = "nXo8QqN0gsytkEchp";
 
-    if (res.success) {
-      Swal.fire({
-        title: "Successe!",
-        text: "Your message sent successeful!",
-        icon: "success",
+    emailjs
+      .send(serviceID, templateID, formData, userID)
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+        alert("Email sent successfully!");
+      })
+      .catch((error) => {
+        console.error("FAILED...", error);
+        alert("Failed to send email. Please try again.");
       });
-    }
   };
 
   return (
@@ -73,49 +72,48 @@ function Form() {
             <form
               action=""
               className="text-white flex flex-col items-end gap-6"
-              onSubmit={onSubmit}
+              onSubmit={handleSubmit}
             >
               <input
                 type="text"
                 name="name"
                 placeholder="Votre nom complet"
                 className="bg-white bg-opacity-10 text-opacity-50 p-4 rounded-xl w-full outline-none"
-                onChange={(e) => {
-                  setName(e.target.value);
-                }}
                 required
+                value={formData.name}
+                onChange={handleChange}
               />
               <input
                 type="email"
                 name="email"
                 placeholder="Votre Email"
                 className="bg-white bg-opacity-10 text-opacity-50 p-4 rounded-xl w-full outline-none"
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                }}
                 required
+                value={formData.email}
+                onChange={handleChange}
               />
               <input
                 type="number"
                 name="phone"
                 placeholder="Votre numéro de téléphone"
                 className="bg-white bg-opacity-10 text-opacity-50 p-4 rounded-xl w-full outline-none"
-                onChange={(e) => {
-                  setPhone(e.target.value);
-                }}
                 required
+                value={formData.phone}
+                onChange={handleChange}
               />
               <input
                 type="text"
                 name="message"
                 placeholder="Message"
                 className="bg-white bg-opacity-10 text-opacity-50 p-4 rounded-xl w-full outline-none pb-[214px]"
-                onChange={(e) => {
-                  setMessage(e.target.value);
-                }}
                 required
+                value={formData.message}
+                onChange={handleChange}
               />
-              <button className="py-2 px-16 bg-[#AB1DEE] bg-opacity-30 rounded-full border-2 border-[#BF36FF] text-xl font-medium hover:bg-[#B925FF] duration-300">
+              <button
+                className="py-2 px-16 bg-[#AB1DEE] bg-opacity-30 rounded-full border-2 border-[#BF36FF] text-xl font-medium hover:bg-[#B925FF] duration-300"
+                type="submit"
+              >
                 Envoyer
               </button>
             </form>

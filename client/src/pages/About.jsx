@@ -66,7 +66,7 @@ function About() {
           <Swiper
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={20}
+            spaceBetween={180}
             slidesPerView={1}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}

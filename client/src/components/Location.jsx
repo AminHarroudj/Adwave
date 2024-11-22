@@ -35,7 +35,7 @@ function Location() {
               User-Friendly And Optimized Online Presence.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:items-start">
             <div className="flex flex-col gap-4 justify-center items-start">
               <div className="bg-[#AB1DEE] p-2 rounded-full">
                 <FaPhoneAlt className="text-2xl" />
