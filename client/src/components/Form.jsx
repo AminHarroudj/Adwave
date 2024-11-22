@@ -30,7 +30,7 @@ function Form() {
         Swal.fire({
           position: "center",
           icon: "success",
-          title: "Your message has been sent successfuly",
+          title: "Votre message a été envoyé avec succès.",
           showConfirmButton: false,
           timer: 1500,
         });
@@ -46,7 +46,7 @@ function Form() {
         Swal.fire({
           position: "center",
           icon: "error",
-          title: "Oops , somthing went wrong!",
+          title: "Oups, quelque chose s'est mal passé !",
           showConfirmButton: false,
           timer: 1500,
         });
