@@ -10,6 +10,9 @@ import { Link } from "react-router-dom";
 import Plan from "../components/Plan";
 import { ReactTyped } from "react-typed";
 import teamImg from "../assets/Vector.png";
+import clientImg from "../assets/client.png"
+import flechImg from "../assets/flech.png"
+import pcDevImg from "../assets/pcdev.png"
 
 function Home() {
   return (
@@ -54,23 +57,23 @@ function Home() {
             </SatisfiedClient>
             <SatisfiedClient number={"10+"} title={"Equipe Membre"}>
               <img
-                src={teamImg}
+                src={clientImg}
                 alt=""
-                className="lg:w-[115.77px] lg:h-[82.08px] w-[80px]"
+                className="w-[80px]"
               />
             </SatisfiedClient>
             <SatisfiedClient number={"5+ Years"} title={"Experience"}>
               <img
-                src={teamImg}
+                src={flechImg}
                 alt=""
-                className="lg:w-[115.77px] lg:h-[82.08px] w-[80px]"
+                className="lg:w-[115.77px] w-[80px]"
               />
             </SatisfiedClient>
             <SatisfiedClient number={"25+"} title={"Product Developed"}>
               <img
-                src={teamImg}
+                src={pcDevImg}
                 alt=""
-                className="lg:w-[115.77px] lg:h-[82.08px] w-[80px]"
+                // className="lg:w-[115.77px] lg:h-[82.08px] w-[80px]"
               />
             </SatisfiedClient>
           </div>
