@@ -60,7 +60,7 @@ function WhoWeAre() {
           <SwiperSlide>
             <Project
               year={"2023"}
-              title={"Delta"}
+              title={"Adwave"}
               description={
                 "En 2023, nous avons réinventé notre entreprise sous le nom 'Adwave', marquant notre entrée sur le marché avec détermination en proposant une gamme complète de services."
               }

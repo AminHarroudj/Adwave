@@ -5,13 +5,15 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Member from "../components/Member";
-import zakiImg from "../assets/zaki.png";
 import WhoWeAre from "../components/WhoWeAre";
 import Form from "../components/Form";
 import Location from "../components/Location";
 import bg from "../assets/background4.png";
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -91,23 +93,65 @@ function About() {
             }}
           >
             <SwiperSlide>
-              <Member name={"Zakarya Houam"} job={"Co-Founder , CTO"}>
-                <img src={zakiImg} alt="" className="rounded-3xl" />
+              <Member
+                name={"Houam Zakaria"}
+                job={"Co-Founder"}
+                description={
+                  "Passionné par les technologies modernes il est le responsable technique d'Adwave. Expert en développement web et solutions numériques, il assure la création de plateformes innovantes adaptées aux besoins des clients, tout en garantissant des standards de qualité élevés."
+                }
+              >
+                <Link
+                  to={"https://www.instagram.com/houamzakaria/"}
+                  target="_blank"
+                >
+                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
+                    <AiFillInstagram className="text-xl" />
+                  </div>
+                </Link>
+                <Link
+                  to={"https://www.linkedin.com/in/zakaria-houam-a8a493209/"}
+                  target="_blank"
+                >
+                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
+                    <FaLinkedin className="text-xl" />
+                  </div>
+                </Link>
               </Member>
             </SwiperSlide>
             <SwiperSlide>
-              <Member name={"Zakarya Houam"} job={"Co-Founder , CTO"}>
-                <img src={zakiImg} alt="" className="rounded-3xl" />
+              <Member
+                name={"Djaalab Zakaria"}
+                job={"Co-Founder"}
+                description={
+                  "Avec un œil artistique unique et une approche centrée sur l’utilisateur il transforme les idées en designs captivants et fonctionnels. Son rôle est d’apporter une identité visuelle forte et un impact esthétique à tous les projets d’Adwave."
+                }
+              >
+                <Link
+                  to={"https://www.linkedin.com/in/zakaria-djaalab-a580622a4"}
+                  target="_blank"
+                >
+                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
+                    <FaLinkedin className="text-xl" />
+                  </div>
+                </Link>
               </Member>
             </SwiperSlide>
             <SwiperSlide>
-              <Member name={"Zakarya Houam"} job={"Co-Founder , CTO"}>
-                <img src={zakiImg} alt="" className="rounded-3xl" />
-              </Member>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Member name={"Zakarya Houam"} job={"Co-Founder , CTO"}>
-                <img src={zakiImg} alt="" className="rounded-3xl" />
+              <Member
+                name={"Kobzili Oussama"}
+                job={"Co-Founder"}
+                description={
+                  "Expert en stratégie digitale, il conçoit et met en œuvre des campagnes marketing performantes. Il accompagne les entreprises dans leur transformation numérique en leur offrant une visibilité optimale sur le marché algérien et au-delà."
+                }
+              >
+                <Link
+                  to={"https://www.linkedin.com/in/oussama-kobzili-b6b380201"}
+                  target="_blank"
+                >
+                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
+                    <FaLinkedin className="text-xl" />
+                  </div>
+                </Link>
               </Member>
             </SwiperSlide>
           </Swiper>

@@ -1,7 +1,5 @@
 import logo from "../assets/logo.png";
 import { PiInstagramLogoFill } from "react-icons/pi";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaYoutube } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -124,28 +122,28 @@ function Footer() {
         </div>
         <div className="flex flex-col gap-4 items-center text-center">
           <div className="flex gap-6 text-4xl">
-            <Link to={"https://www.instagram.com/adwave_business/"}>
+            <Link
+              to={"https://www.instagram.com/adwave_business/"}
+              target="_blank"
+            >
               <PiInstagramLogoFill className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
             </Link>
-            <Link to={""}>
-              <FaXTwitter className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
-            </Link>
-            <Link to={""}>
-              <FaYoutube className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
-            </Link>
-            <Link to={"https://www.linkedin.com/company/102419854"}>
+            <Link
+              to={"https://www.linkedin.com/company/102419854"}
+              target="_blank"
+            >
               <BsLinkedin className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
             </Link>
             <Link
               to={"https://www.facebook.com/profile.php?id=100094580161847"}
+              target="_blank"
             >
               <FaFacebook className="text-white text-opacity-50 cursor-pointer hover:scale-125 duration-300" />
             </Link>
           </div>
           <div>
             <p className="text-white text-opacity-50">
-              Made With Love By Amin Harroudj .All Rights Reserved To{" "}
-              <span>ADWAVE.</span>
+              All Rights Reserved To <span>ADWAVE.</span>
             </p>
           </div>
         </div>

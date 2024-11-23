@@ -4,10 +4,9 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
-import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
-import { FaTiktok } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function Location() {
   return (
@@ -55,21 +54,21 @@ function Location() {
             <div className="flex flex-col gap-4 justify-center items-start">
               <h1 className="text-2xl">Follow us</h1>
               <div className="flex gap-4">
-                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
-                  <AiFillInstagram className="text-xl" />
-                </div>
-                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
-                  <FaFacebook className="text-xl" />
-                </div>
-                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
-                  <BsTwitterX className="text-xl" />
-                </div>
-                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
-                  <FaLinkedin className="text-xl" />
-                </div>
-                <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
-                  <FaTiktok className="text-xl" />
-                </div>
+                <Link to={"https://www.instagram.com/adwave_business/"} target="_blank">
+                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
+                    <AiFillInstagram className="text-xl" />
+                  </div>
+                </Link>
+                <Link to={"https://www.facebook.com/profile.php?id=100094580161847"} target="_blank">
+                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
+                    <FaFacebook className="text-xl" />
+                  </div>
+                </Link>
+                <Link to={"https://www.linkedin.com/company/102419854"} target="_blank">
+                  <div className="bg-[#AB1DEE] bg-opacity-50 cursor-pointer p-2 rounded-full hover:bg-[#B925FF] duration-300 hover:scale-125">
+                    <FaLinkedin className="text-xl" />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

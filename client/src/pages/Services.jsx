@@ -7,6 +7,7 @@ import WhyChooseUs from "../components/WhatWeDo";
 import bg from "../assets/background2.png";
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function Services() {
   return (
@@ -91,9 +92,11 @@ function Services() {
                 expérience
               </p>
             </div>
-            <button className="text-lg lg:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 lg:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
-              Demandez une consultation gratuite
-            </button>
+            <Link to={"/contact"}>
+              <button className="text-lg lg:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 lg:px-12 rounded-3xl bg-[#180023]  mt-10 hover:bg-[#B925FF] duration-300 z-50">
+                Demandez une consultation gratuite
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -132,9 +135,11 @@ function Services() {
                 les moteurs de recherche pour atteindre votre public cible.
               </p>
             </div>
-            <button className="text-lg lg:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 lg:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
-              Demandez une consultation gratuite
-            </button>
+            <Link to={"/contact"}>
+              <button className="text-lg lg:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 lg:px-12 rounded-3xl bg-[#180023]  mt-10 hover:bg-[#B925FF] duration-300 z-50">
+                Demandez une consultation gratuite
+              </button>
+            </Link>
           </div>
           <div className="w-11/12 max-lg:hidden">
             <img src={marketingImg} alt="" />
@@ -179,9 +184,11 @@ function Services() {
                 attractives pour améliorer l&apos;expérience utilisateur.
               </p>
             </div>
-            <button className="text-lg lg:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 lg:px-12 rounded-3xl bg-[#B925FF] bg-opacity-20 mt-10 hover:bg-[#B925FF] duration-300">
-              Demandez une consultation gratuite
-            </button>
+            <Link to={"/contact"}>
+              <button className="text-lg lg:text-xl font-medium border-2 border-[#B925FF] py-4 px-4 lg:px-12 rounded-3xl bg-[#180023]  mt-10 hover:bg-[#B925FF] duration-300 z-50">
+                Demandez une consultation gratuite
+              </button>
+            </Link>
           </div>
         </div>
 
