@@ -1,6 +1,7 @@
 import { FaAngleRight } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import bg from "../assets/pc.jpeg";
+import { Link } from "react-router-dom";
 
 function Service({ num, title, description }) {
   return (
@@ -28,12 +29,12 @@ function Service({ num, title, description }) {
         </h1>
       </div>
       <div className="flex flex-col lg:flex-row items-center gap-2 lg:gap-10">
-        <p className="lg:text-lg max-lg:text-center lg:w-3/4">
-          {description}
-        </p>
-        <div className="w-[75px] h-[75px] flex justify-center items-center text-4xl border-2 border-white border-opacity-50 bg-white bg-opacity-10 rounded-3xl cursor-pointer">
-          <FaAngleRight />
-        </div>
+        <p className="lg:text-lg max-lg:text-center lg:w-3/4">{description}</p>
+        <Link to={"/services"}>
+          <div className="w-[75px] h-[75px] flex justify-center items-center text-4xl border-2 border-white border-opacity-50 bg-white bg-opacity-10 rounded-3xl cursor-pointer">
+            <FaAngleRight />
+          </div>
+        </Link>
       </div>
     </motion.div>
   );
