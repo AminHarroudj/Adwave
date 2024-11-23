@@ -66,14 +66,14 @@ function Home() {
               <img
                 src={flechImg}
                 alt=""
-                className="lg:w-[115.77px] w-[80px]"
+                className="lg:w-[115.77px] w-[80px] lg:h-[80px]"
               />
             </SatisfiedClient>
             <SatisfiedClient number={"25+"} title={"Product Developed"}>
               <img
                 src={pcDevImg}
                 alt=""
-                // className="lg:w-[115.77px] lg:h-[82.08px] w-[80px]"
+                className="lg:w-[115.77px] w-[80px]"
               />
             </SatisfiedClient>
           </div>
